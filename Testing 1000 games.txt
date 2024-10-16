@@ -1,0 +1,31 @@
+Testing 1000 games with 2 players with 0 start points in political orientation and 16 point in political support
+    >>> Loaded Card Levels: 4.409, 
+    Success: 100%, 
+    Debt: 0.5%, 
+    Failure: -0.5%; 
+    Avg Levels 0 with cards: [basicfull] - 37 starting cards; 
+    Avg acitons:192.911; 
+    Avg Gametime 96.4555 min
+Testing 1000 games with 3 players with 0 start points in political orientation and 16 point in political support
+    >>> Loaded Card Levels: 4.916, 
+    Success: 100%,
+    Debt: 0.5%, 
+    Failure: -0.5%; 
+    Avg Levels 0 with cards: [basicfull] - 48 starting cards; 
+    Avg acitons:217.878; 
+    Avg Gametime 108.939 min
+Testing 1000 games with 4 players with 0 start points in political orientation and 16 point in political support
+    >>> Loaded Card Levels: 5.017, 
+    Success: 99.6%, Debt: 0.9%, 
+    Failure: -0.5%; 
+    Avg Levels 0 with cards: [basicfull] - 60 starting cards; 
+    Avg acitons:235.623; 
+    Avg Gametime 117.8115 min
+Testing 1000 games with 5 players with 0 start points in political orientation and 16 point in political support
+    >>> Loaded Card Levels: 5.422, 
+    Success: 97.3%, 
+    Debt: 3.2%, 
+    Failure: -0.5%; 
+    Avg Levels 0 with cards: [basicfull] - 72 starting cards; 
+    Avg acitons:258.692; 
+    Avg Gametime 129.346 min
