@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "38-3-B-1.json",
+    "cardcode": "3-2-B[1]",
+    "subtypename": "Silna w\u0142adza",
+    "r": "B",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "level": "1",
+    "number": 38,
+    "cost": 7,
+    "requirements": {
+        "price": 7,
+        "support": 19,
+        "_3": 0
+    },
+    "results": {
+        "_3_2": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_3_2",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "1",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "28-2-B-2.json",
+    "cardcode": "2-3-B[2]",
+    "subtypename": "Pot\u0119ga gospodarcza",
+    "r": "B",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "level": "2",
+    "number": 28,
+    "cost": 10,
+    "requirements": {
+        "price": 10,
+        "support": 25,
+        "_2": 4
+    },
+    "results": {
+        "_2_3": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_2_3",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "1",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

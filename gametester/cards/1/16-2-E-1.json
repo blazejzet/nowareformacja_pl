@@ -1,0 +1,34 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "16-2-E-1.json",
+    "cardcode": "2-1-E[1]",
+    "subtypename": "Si\u0142a innowacji",
+    "r": "E",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "level": "1",
+    "number": 16,
+    "cost": 6,
+    "requirements": {
+        "price": 6,
+        "support": 17,
+        "_2": 0
+    },
+    "results": {
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "card": 0,
+        "investment": 1,
+        "vp": 0,
+        "buildings": "0",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 1
+    }
+}

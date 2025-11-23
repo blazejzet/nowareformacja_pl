@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "20-3-S-6.json",
+    "cardcode": "3-1-S[6]",
+    "subtypename": "Si\u0142a ko\u015bcio\u0142a",
+    "r": "S",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "level": "6",
+    "number": 20,
+    "cost": 47,
+    "requirements": {
+        "price": 47,
+        "support": 48,
+        "_3": 20
+    },
+    "results": {
+        "_3_1": 1,
+        "support": -2
+    },
+    "effects": {
+        "support": -2,
+        "incr": "_3_1",
+        "card": 0,
+        "investment": 0,
+        "vp": 1,
+        "buildings": "0",
+        "social": 1,
+        "funds": 35,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 1
+    }
+}

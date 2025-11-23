@@ -1,0 +1,34 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "13-2-E-5.json",
+    "cardcode": "2-2-E[5]",
+    "subtypename": "Rozw\u00f3j naukowy",
+    "r": "E",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "level": "5",
+    "number": 13,
+    "cost": 34,
+    "requirements": {
+        "price": 34,
+        "support": 42,
+        "_2": 17
+    },
+    "results": {
+        "support": 3
+    },
+    "effects": {
+        "support": 3,
+        "card": 0,
+        "investment": 2,
+        "vp": 1,
+        "buildings": "0",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 1,
+        "debt": 2
+    }
+}

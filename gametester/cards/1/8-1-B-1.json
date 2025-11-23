@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "8-1-B-1.json",
+    "cardcode": "1-2-B[1]",
+    "subtypename": "Dobrobyt obywateli",
+    "r": "B",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Spo\u0142ecze\u0144stwo",
+    "level": "1",
+    "number": 8,
+    "cost": 7,
+    "requirements": {
+        "price": 7,
+        "support": 19,
+        "_1": 0
+    },
+    "results": {
+        "_1_2": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_1_2",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "1",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

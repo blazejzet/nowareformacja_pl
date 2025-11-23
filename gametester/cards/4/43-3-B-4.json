@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "43-3-B-4.json",
+    "cardcode": "3-3-B[4]",
+    "subtypename": "Kult przesz\u0142o\u015bci",
+    "r": "B",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "level": "4",
+    "number": 43,
+    "cost": 24,
+    "requirements": {
+        "price": 24,
+        "support": 35,
+        "_3": 13
+    },
+    "results": {
+        "_3_3": 1,
+        "support": 2
+    },
+    "effects": {
+        "support": 2,
+        "incr": "_3_3",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "1",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 1,
+        "debt": 0
+    }
+}

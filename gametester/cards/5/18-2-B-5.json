@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "18-2-B-5.json",
+    "cardcode": "2-3-B[5]",
+    "subtypename": "Pot\u0119ga gospodarcza",
+    "r": "B",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "level": "5",
+    "number": 18,
+    "cost": 33,
+    "requirements": {
+        "price": 33,
+        "support": 42,
+        "_2": 16
+    },
+    "results": {
+        "_2_3": 1,
+        "support": 2
+    },
+    "effects": {
+        "support": 2,
+        "incr": "_2_3",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "1",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 1,
+        "debt": 0
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "12-1-S-4.json",
+    "cardcode": "1-3-S[4]",
+    "subtypename": "Swobody obywatelskie",
+    "r": "S",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Spo\u0142ecze\u0144stwo",
+    "level": "4",
+    "number": 12,
+    "cost": 23,
+    "requirements": {
+        "price": 23,
+        "support": 34,
+        "_1": 12
+    },
+    "results": {
+        "_1_3": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_1_3",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 1,
+        "funds": 15,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "36-3-E-3.json",
+    "cardcode": "3-2-E[3]",
+    "subtypename": "Silna w\u0142adza",
+    "r": "E",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "level": "3",
+    "number": 36,
+    "cost": 15,
+    "requirements": {
+        "price": 15,
+        "support": 28,
+        "_3": 8
+    },
+    "results": {
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "card": 0,
+        "investment": 2,
+        "vp": 0,
+        "buildings": "0",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 1
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "45-3-N-4.json",
+    "cardcode": "3-3-N[4]",
+    "subtypename": "Kult przesz\u0142o\u015bci",
+    "r": "N",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "level": "4",
+    "number": 45,
+    "cost": 23,
+    "requirements": {
+        "price": 23,
+        "support": 32,
+        "_3": 13
+    },
+    "results": {
+        "support": 1
+    },
+    "effects": {
+        "support": 1,
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 0,
+        "funds": 0,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

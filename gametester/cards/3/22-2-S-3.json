@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "22-2-S-3.json",
+    "cardcode": "2-2-S[3]",
+    "subtypename": "Rozw\u00f3j naukowy",
+    "r": "S",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "level": "3",
+    "number": 22,
+    "cost": 16,
+    "requirements": {
+        "price": 16,
+        "support": 28,
+        "_2": 8
+    },
+    "results": {
+        "_2_2": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_2_2",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 1,
+        "funds": 10,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

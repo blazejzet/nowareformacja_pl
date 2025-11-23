@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "17-2-S-4.json",
+    "cardcode": "2-1-S[4]",
+    "subtypename": "Si\u0142a innowacji",
+    "r": "S",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "level": "4",
+    "number": 17,
+    "cost": 25,
+    "requirements": {
+        "price": 25,
+        "support": 34,
+        "_2": 13
+    },
+    "results": {
+        "_2_1": 1,
+        "support": -1
+    },
+    "effects": {
+        "support": -1,
+        "incr": "_2_1",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 1,
+        "funds": 20,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

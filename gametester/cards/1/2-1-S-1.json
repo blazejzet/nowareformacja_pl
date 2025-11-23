@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "2-1-S-1.json",
+    "cardcode": "1-1-S[1]",
+    "subtypename": "Bezpieczny kraj",
+    "r": "S",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Spo\u0142ecze\u0144stwo",
+    "level": "1",
+    "number": 2,
+    "cost": 7,
+    "requirements": {
+        "price": 7,
+        "support": 18,
+        "_1": 0
+    },
+    "results": {
+        "_1_1": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_1_1",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 1,
+        "funds": 5,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}

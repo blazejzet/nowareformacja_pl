@@ -1,0 +1,36 @@
+{
+    "cardtypename": " KARTY PODSTAWOWE",
+    "cardname": "32-3-S-4.json",
+    "cardcode": "3-1-S[4]",
+    "subtypename": "Si\u0142a ko\u015bcio\u0142a",
+    "r": "S",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "level": "4",
+    "number": 32,
+    "cost": 25,
+    "requirements": {
+        "price": 25,
+        "support": 34,
+        "_3": 12
+    },
+    "results": {
+        "_3_1": 1,
+        "support": 0
+    },
+    "effects": {
+        "support": 0,
+        "incr": "_3_1",
+        "card": 0,
+        "investment": 0,
+        "vp": 0,
+        "buildings": "0",
+        "social": 1,
+        "funds": 20,
+        "war": 0,
+        "conflict": 0,
+        "cooperation": 0,
+        "debt": 0
+    }
+}
