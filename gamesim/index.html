@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nowa Reformacja — Symulator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Nowa Reformacja • Symulator stołu</p>
+        <h1>Graj przeciwko symulowanym graczom</h1>
+        <p class="lede">Karty i parametry pochodzą z materiałów projektu (folder <code>gametester/cards</code> i instrukcja <code>MANUAL_V3/INSTRv3.pdf</code>). Brak backendu — całość w czystym JavaScript.</p>
+      </div>
+      <div class="controls">
+        <label>
+          Liczba graczy
+          <input id="playerCount" type="number" min="2" max="5" value="4">
+        </label>
+        <label>
+          Ziarno losowe (opcjonalnie)
+          <input id="seedInput" type="text" placeholder="losowe">
+        </label>
+        <button id="newGameBtn">Nowa gra</button>
+        <a class="ghost" href="../MANUAL_V3/INSTRv3.pdf" target="_blank" rel="noreferrer">Instrukcja PDF</a>
+      </div>
+    </header>
+
+    <section class="status-strip" id="statusStrip">
+      <div id="roundInfo"></div>
+      <div id="deckInfo"></div>
+      <div id="indicatorInfo"></div>
+      <div id="resourceInfo"></div>
+    </section>
+
+    <aside id="stickySummary" class="floating-summary">
+      <div class="floating-header">Twój stan</div>
+      <div id="stickyResources"></div>
+      <div class="floating-header">Twoje pola</div>
+      <div id="stickyFields"></div>
+      <div class="floating-header">Plansza</div>
+      <div id="stickyBoard"></div>
+    </aside>
+
+    <section class="grid">
+      <section class="panel hand-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Twoja ręka</p>
+            <h2>Wybierz kartę albo wymień rękę</h2>
+          </div>
+          <div class="hand-actions">
+            <button id="exchangeBtn">Wymień rękę</button>
+            <button id="passBtn" class="ghost">Pas</button>
+          </div>
+        </div>
+        <div id="handContainer" class="cards"></div>
+        <p class="hint">Karty są podświetlone, gdy spełniasz wymagania. Wymiana kosztuje liczbę kart w ręku (standardowo 6 monet) i wymaga kart w talii.</p>
+      </section>
+
+      <section class="panel sidebar">
+        <div class="panel-section">
+          <p class="eyebrow">Wskaźniki państwa</p>
+          <div id="indicatorList" class="indicator-list"></div>
+        </div>
+        <div class="panel-section">
+          <p class="eyebrow">Plansza</p>
+          <div id="boardSummary"></div>
+        </div>
+        <div class="panel-section">
+          <p class="eyebrow">Podsumowanie partii</p>
+          <div id="scoreSummary"></div>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Gracze</p>
+          <h3>Stan zasobów i pól</h3>
+        </div>
+        <div class="auto-play-hint">Symulowani gracze ruszają automatycznie; czekamy tylko na Twój ruch.</div>
+      </div>
+      <div id="playersContainer" class="players"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Log tury</p>
+          <h3>Co się wydarzyło?</h3>
+        </div>
+        <button id="clearLogBtn" class="ghost">Wyczyść log</button>
+      </div>
+      <div id="logContainer" class="log"></div>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

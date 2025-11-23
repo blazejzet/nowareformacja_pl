@@ -1,0 +1,6752 @@
+[
+  {
+    "id": "1-1-E-1.json",
+    "level": 1,
+    "title": "Badania nad szczepionkami",
+    "description": " Rząd przeznacza środki na rozbudowę centrów badawczych i finansowanie badań nad nowymi i ulepszonymi szczepionkami przeciwko chorobom zakaźnym, co zwiększa odporność i ochronę zdrowia obywateli, a także pozwala na zwalczanie zagrożeń epidemiologicznych.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[1]",
+    "requirements": {
+      "price": 6,
+      "support": 17,
+      "_1": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-1-N-1.json",
+    "level": 1,
+    "title": "Podwyżka płacy minimalnej",
+    "description": " Rząd zwiększa minimalną stawkę godzinową, którą pracodawcy muszą płacić swoim pracownikom. Celem jest poprawa sytuacji materialnej najuboższych i zwiększenie siły nabywczej.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-N[1]",
+    "requirements": {
+      "price": 6,
+      "support": 16,
+      "_1": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-1-E-1.json",
+    "level": 1,
+    "title": "Wolność mediów",
+    "description": " Rząd wprowadza gwarancje niezależności i pluralizmu mediów, oraz program dofinansowań instytucji tworzących nowe kanały i serwisy informacyjne i rozrywkowe. ",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[1]",
+    "requirements": {
+      "price": 7,
+      "support": 17,
+      "_1": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-1-S-1.json",
+    "level": 1,
+    "title": "Centrum kultury",
+    "description": " Rząd tworzy nowoczesną przestrzeń dla artystów i odbiorców, a także organizuje wystawy, koncerty i warsztaty.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[1]",
+    "requirements": {
+      "price": 5,
+      "support": 18,
+      "_1": 0
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-1-B-1.json",
+    "level": 1,
+    "title": "Biblioteki publiczne",
+    "description": " Rząd inwestuje w budowę i wyposażenie bibliotek w różnych miastach i regionach, aby zapewnić łatwy dostęp do wiedzy i kultury wszystkim obywatelom.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[1]",
+    "requirements": {
+      "price": 6,
+      "support": 19,
+      "_1": 1
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "15-1-N-1.json",
+    "level": 1,
+    "title": "Równouprawnienie kobiet",
+    "description": " Rząd wprowadza zasadę równości płci w prawie i praktyce, a także promuje aktywność zawodową i społeczną kobiet.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-N[1]",
+    "requirements": {
+      "price": 5,
+      "support": 16,
+      "_1": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-1.json",
+    "level": 1,
+    "title": "Stworzenie funduszu innowacji",
+    "description": " Rząd przeznacza część budżetu na wspieranie projektów innowacyjnych w różnych dziedzinach, takich jak technologia, medycyna, edukacja, kultura, itp. Fundusz ma na celu stymulować kreatywność i przedsiębiorczość obywateli, a także przyciągać zagranicznych inwestorów i partnerów.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[1]",
+    "requirements": {
+      "price": 6,
+      "support": 17,
+      "_2": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-1.json",
+    "level": 1,
+    "title": "Internet szerokopasmowy",
+    "description": " Rząd inwestuje w modernizację infrastruktury telekomunikacyjnej, która ma zapewnić dostęp do szybkiego internetu na terenie całego kraju. Ta akcja ma na celu zwiększenie możliwości edukacyjnych i zawodowych dla mieszkańców tych obszarów, jednak koszt ostateczny jest przerzucony na odbiorcę końcowego i powoduje wzrost cen usług dostępu do internetu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[1]",
+    "requirements": {
+      "price": 7,
+      "support": 18,
+      "_2": 1
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-1.json",
+    "level": 1,
+    "title": "Budowa autostrad#inteligentnych",
+    "description": " Rząd buduje nowe autostrady, które wykorzystują technologie informacyjne i komunikacyjne do poprawy bezpieczeństwa, płynności i efektywności ruchu drogowego. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[1]",
+    "requirements": {
+      "price": 5,
+      "support": 19,
+      "_2": 0
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "2-1-S-1.json",
+    "level": 1,
+    "title": "Reforma emerytur",
+    "description": "Rząd wprowadza reformę systemu emerytalnego, która zapewnia godziwe i stabilne świadczenia dla seniorów, zwiększa wiek emerytalny i zachęca do oszczędzania na emeryturę. To podnosi poczucie bezpieczeństwa społecznego i finansowego, zmniejsza ubóstwo wśród osób starszych i poprawia sytuację demograficzną.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[1]",
+    "requirements": {
+      "price": 7,
+      "support": 18,
+      "_1": 0
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-2-N-1.json",
+    "level": 1,
+    "title": "Rozwój zawodowy",
+    "description": " Rząd uchwala ustawę, która zapewnia finansowanie okresu nauki wszystkim, którzy chcą podjąć się zmiany zawodu. Daje to mieszkańcom łatwiejszą drogę do znalezienia wymarzonej pracy.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-N[1]",
+    "requirements": {
+      "price": 7,
+      "support": 16,
+      "_2": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-2-E-1.json",
+    "level": 1,
+    "title": "Stypendia dla młodych #naukowców",
+    "description": " Rząd przyznaje stypendia dla najlepszych studentów i doktorantów z dziedzin naukowych, aby zachęcić ich do kontynuowania kariery naukowej i tworzenia innowacyjnych rozwiązań. Stypendia są finansowane z budżetu państwa, ale mają przynieść korzyści w dłuższej perspektywie.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[1]",
+    "requirements": {
+      "price": 5,
+      "support": 17,
+      "_2": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-2-S-1.json",
+    "level": 1,
+    "title": "Budowa parków naukowych",
+    "description": " Rząd buduje nowoczesne parki naukowe, które są miejscami współpracy i wymiany między naukowcami, przedsiębiorcami i społeczeństwem. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[1]",
+    "requirements": {
+      "price": 6,
+      "support": 18,
+      "_2": 0
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-2-B-1.json",
+    "level": 1,
+    "title": "Budowa centrum innowacji",
+    "description": " Rząd tworzy nowoczesną przestrzeń dla przedsiębiorców i naukowców, a także wspiera rozwój i komercjalizację nowych technologii i rozwiązań.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[1]",
+    "requirements": {
+      "price": 7,
+      "support": 19,
+      "_2": 1
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "25-2-N-1.json",
+    "level": 1,
+    "title": "Ustawa o szkolnictwie wyższym",
+    "description": " Rząd uchwala nową ustawę, która ma na celu poprawę jakości i efektywności systemu nauki i szkolnictwa wyższego. Akcja ta wprowadza m.in. nowe zasady finansowania, oceny i wspierania jednostek naukowych, uczelni i naukowców.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-N[1]",
+    "requirements": {
+      "price": 6,
+      "support": 16,
+      "_2": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-2-E-1.json",
+    "level": 1,
+    "title": "Modernizacja sieci kolejowej",
+    "description": "Rząd inwestuje w modernizację i rozbudowę sieci kolejowej, co zwiększa efektywność i komfort podróżowania oraz zmniejsza emisję zanieczyszczeń. Wzdłóż nowoczesnych lini kolejowych powstają nowe fabryki, do których pracownicy mogą bez problemu dotrzeć.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[1]",
+    "requirements": {
+      "price": 7,
+      "support": 17,
+      "_2": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-2-S-1.json",
+    "level": 1,
+    "title": "Obowiązek dokształcania online",
+    "description": "Rząd wzmacnia dostępność edukacji online, i wymusza obowiązkowe zdobywanie nowych kwalifikacji - przynajmniej raz na rok. Powoduje to wzrost konkurencyjności obywatli na rynu pracy, spotyka się też z oporem społecznym.@Przesuń jeden ze swoich zielonych znaczników na pole nie przylegające do innych pól.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[1]",
+    "requirements": {
+      "price": 5,
+      "support": 18,
+      "_2": 1
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "28-2-B-1.json",
+    "level": 1,
+    "title": "Budowa nowego lotniska",
+    "description": " Rząd inwestuje w budowę nowego lotniska, które ma usprawnić połączenia międzynarodowe, zwiększyć ich ilość oraz przyciągnąć turystów i biznesmenów. Akcja podnosi poparcie rządu wśród podróżnych i przedsiębiorców, ale może spotkać się z oporem ze strony okolicznych mieszkańców i ekologów.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[1]",
+    "requirements": {
+      "price": 6,
+      "support": 19,
+      "_2": 0
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "28.jpg"
+  },
+  {
+    "id": "3-1-B-1.json",
+    "level": 1,
+    "title": "Sieć dróg ekspresowych",
+    "description": " Rząd inwestuje w rozbudowę i modernizację dróg ekspresowych, co poprawia bezpieczeństwo i komfort podróżowania, a także ułatwia transport towarów i usług.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[1]",
+    "requirements": {
+      "price": 5,
+      "support": 19,
+      "_1": 1
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "30-2-N-1.json",
+    "level": 1,
+    "title": "Umowa o wolnym handlu",
+    "description": " Rząd podpisuje umowę, która ma na celu zlikwidować lub obniżyć cła i pozostałe bariery handlowe między krajem a głównymi blokami gospodarczymi. Ta akcja ma na celu zwiększenie dostępu do rynków i towarów.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-N[1]",
+    "requirements": {
+      "price": 5,
+      "support": 16,
+      "_2": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "30.jpg"
+  },
+  {
+    "id": "31-3-E-1.json",
+    "level": 1,
+    "title": "Nieruchomości kościelne",
+    "description": " Rząd kupuje od kościoła część jego nieruchomości, takich jak budynki, grunty czy lasy, które wykorzystuje na potrzeby gospodarcze. Zakup nieruchomości kościelnych ma na celu poprawę relacji między państwem a kościołem, a także zwiększenie zasobów i dochodów rządu.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[1]",
+    "requirements": {
+      "price": 6,
+      "support": 17,
+      "_3": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "31.jpg"
+  },
+  {
+    "id": "32-3-S-1.json",
+    "level": 1,
+    "title": "Budowa nowych kościołów",
+    "description": " Rząd przeznacza środki na budowę nowych kościołów w różnych regionach kraju, zwiększając potęgę kościoła i poparcie społeczne.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[1]",
+    "requirements": {
+      "price": 7,
+      "support": 18,
+      "_3": 0
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "32.jpg"
+  },
+  {
+    "id": "33-3-B-1.json",
+    "level": 1,
+    "title": "Budowa katedry narodowej",
+    "description": " Rząd przeznacza fundusze na budowę nowej, imponującej katedry, która ma być symbolem wiary i jedności narodu. Katedra ma być ozdobiona freskami, witrażami i rzeźbami przedstawiającymi ważne postaci i wydarzenia z historii kraju. Budowa katedry ma trwać kilka lat i zapewnić pracę wielu ludziom.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[1]",
+    "requirements": {
+      "price": 5,
+      "support": 19,
+      "_3": 1
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "33.jpg"
+  },
+  {
+    "id": "35-3-N-1.json",
+    "level": 1,
+    "title": "Wprowadzenie konkordatu",
+    "description": " Rząd podpisuje umowę między państwem a Stolicą Apostolską, która reguluje stosunki prawne między nimi. Konkordat ma na celu zapewnienie kościołowi pewnych przywilejów i gwarancji, ale również utrwalenie tradycyjnych wartości i jedności w społeczeństwie.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-N[1]",
+    "requirements": {
+      "price": 7,
+      "support": 16,
+      "_3": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "35.jpg"
+  },
+  {
+    "id": "36-3-E-1.json",
+    "level": 1,
+    "title": "Utworzenie funduszu #inwestycyjnego",
+    "description": " Rząd tworzy fundusz inwestycyjny, który ma finansować projekty związane z rozwojem gospodarczym, społecznym i kulturalnym kraju, a także przynosić rządowi zyski z odsetek i udziałów, dzięki temu że jest jego głównym udziałowcem.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[1]",
+    "requirements": {
+      "price": 5,
+      "support": 17,
+      "_3": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "36.jpg"
+  },
+  {
+    "id": "37-3-S-1.json",
+    "level": 1,
+    "title": "Upolitycznienie sądów",
+    "description": " Rząd tworzy sieć szybkich e-sądów, do których wprowadza upolitycznionych sędziów, dbających o interesy władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[1]",
+    "requirements": {
+      "price": 6,
+      "support": 18,
+      "_3": 1
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "37.jpg"
+  },
+  {
+    "id": "38-3-B-1.json",
+    "level": 1,
+    "title": "Nowy pałac prezydencki",
+    "description": " Rząd buduje nowy pałac prezydencki, który ma być symbolem potęgi władzy i prestiżu kraju na arenie międzynarodowej.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[1]",
+    "requirements": {
+      "price": 7,
+      "support": 19,
+      "_3": 0
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "38.jpg"
+  },
+  {
+    "id": "40-3-N-1.json",
+    "level": 1,
+    "title": "Bbezpieczeństwo narodowe",
+    "description": " Rząd przyjmuje ustawę o bezpieczeństwie narodowym, która ma zwiększyć uprawnienia i kompetencje służb specjalnych, a także zwiększyć potęgę władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-N[1]",
+    "requirements": {
+      "price": 6,
+      "support": 16,
+      "_3": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "40.jpg"
+  },
+  {
+    "id": "41-3-E-1.json",
+    "level": 1,
+    "title": "Ochrona dziedzictwa #narodowego",
+    "description": " Rząd tworzy fundusz ochrony dziedzictwa narodowego, który ma finansować budowę muzeów oraz inne projekty związane z zachowaniem i promocją tradycji i kultury kraju, a także przynosić zyski z biletów i pamiątek.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[1]",
+    "requirements": {
+      "price": 7,
+      "support": 17,
+      "_3": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "41.jpg"
+  },
+  {
+    "id": "42-3-S-1.json",
+    "level": 1,
+    "title": "Budowa domów ludowych",
+    "description": " Rząd buduje domy ludowe, które mają być miejscem spotkań i integracji dla lokalnych społeczności, a także podnosić potęgę tradycji i poparcie dla rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[1]",
+    "requirements": {
+      "price": 5,
+      "support": 18,
+      "_3": 0
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "42.jpg"
+  },
+  {
+    "id": "43-3-B-1.json",
+    "level": 1,
+    "title": "Budowa pomników#narodowych",
+    "description": " Rząd buduje pomniki narodowe, które mają upamiętniać ważne postaci i wydarzenia z historii kraju, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[1]",
+    "requirements": {
+      "price": 6,
+      "support": 19,
+      "_3": 1
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "43.jpg"
+  },
+  {
+    "id": "45-3-N-1.json",
+    "level": 1,
+    "title": "Ochrona zwierząt",
+    "description": " Rząd przyjmuje ustawę o ochronie praw zwierząt, która ma zapbiec złym praktykom stosowanym wobec zwierząt. To prowadzi do wzrostu poparcia społecznego.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-N[1]",
+    "requirements": {
+      "price": 5,
+      "support": 16,
+      "_3": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "45.jpg"
+  },
+  {
+    "id": "5-1-N-1.json",
+    "level": 1,
+    "title": "Zwiększenie liczby policjantów",
+    "description": " Rząd zwiększa zatrudnienie policjantów i podnosi ich pensje, aby zapewnić większą skuteczność zwalczania przestępczości i podnieść poziom bezpieczeństwa publicznego.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-N[1]",
+    "requirements": {
+      "price": 7,
+      "support": 16,
+      "_1": 1
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-E-1.json",
+    "level": 1,
+    "title": "Nacjonalizacja banku",
+    "description": " Rząd nacjonalizuje jeden z prywatnych banków, któremu groziła upadłość. Zapewnia w ten sposób bezpieczeństo oszczędnościom obywateli w dalszej perspektywie dochód z usług bankowych.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[1]",
+    "requirements": {
+      "price": 5,
+      "support": 17,
+      "_1": 0
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-S-1.json",
+    "level": 1,
+    "title": "Budowa dróg",
+    "description": " Rząd inwestuje w modernizację sieci drogowej, budując obwodnice miast i zamieniając drogi wewnętrzne w parki. Powoduje to utrudnienia w komunikacji, ale pozytywnie wpływa na tkankę miejską@Możesz przesunąć jeden swój znacznik srebrny na inne pole, stawiając w jego miejscu znacznik zielony.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[1]",
+    "requirements": {
+      "price": 6,
+      "support": 18,
+      "_1": 1
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-B-1.json",
+    "level": 1,
+    "title": "Budowa sieci autostrad",
+    "description": " Rząd inwestuje w rozbudowę i modernizację sieci autostrad, co ma poprawić komunikację i dostępność transportu w kraju. Akcja ta podnosi dobrobyt finansowy obywateli, ponieważ ułatwia im podróżowanie, handel i turystykę.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[1]",
+    "requirements": {
+      "price": 7,
+      "support": 19,
+      "_1": 0
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "1-1-E-2.json",
+    "level": 2,
+    "title": "Rozwój turystyki",
+    "description": " Rząd wspiera rozwój infrastruktury turystycznej, promocję kraju jako atrakcyjnego celu podróży i ułatwienie przepływu turystów, co zwiększa dochody z turystyki, poprawia wizerunek kraju i zwiększa zainteresowanie kulturą i historią narodu.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_1": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-1-N-2.json",
+    "level": 2,
+    "title": "Ulga podatkowa",
+    "description": " Rząd obniża lub znosi niektóre podatki, które obciążają obywateli, takie jak podatek od nieruchomości, podatek od spadków, podatek od darowizn, itp. Celem jest zwiększenie dochodów i oszczędności obywateli.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-N[2]",
+    "requirements": {
+      "price": 10,
+      "support": 23,
+      "_1": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-1-E-2.json",
+    "level": 2,
+    "title": "Targowiska miejskie",
+    "description": " Rząd inwestuje w stworzenie sieci targowisk miejskich, zwlaniając jednocześnie małych handlarzy z podatku. Aktywizuje to społeczeństwo i prowadzi stopniowo do rozwoju dochodowych biznesów.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_1": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-1-S-2.json",
+    "level": 2,
+    "title": "Ochrona parków narodowych",
+    "description": " Rząd chroni cenne ekosystemy i gatunki, a także rozbudowuje i zabezpiecza infrastrukturę szlaków turystycznych. Zwiedzający dostają możliwość bezpośredniego obcowania z naturą, co stanowi dla nich atrakcję turystyczną i edukacyjną.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_1": 4
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-1-B-2.json",
+    "level": 2,
+    "title": "Rozwój transportu publicznego",
+    "description": " Rząd modernizuje i rozbudowuje system transportu publicznego, aby ułatwić obywatelom przemieszczanie się, zapewnić im oszczędność czasu i komfort podróżowania.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[2]",
+    "requirements": {
+      "price": 10,
+      "support": 25,
+      "_1": 5
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "15-1-N-2.json",
+    "level": 2,
+    "title": "Ochrona praw zwierząt #hodowlanych",
+    "description": " Rząd wprowadza zaostrzenie w ustawie o ochronie praw zwierząt. Zakazuje okrutnego traktowania i uboju zwierząt w nieodpowiednich warunkach, a także reguluje warunki hodowli i transportu zwierzęcych produktów.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-N[2]",
+    "requirements": {
+      "price": 9,
+      "support": 23,
+      "_1": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-2.json",
+    "level": 2,
+    "title": "Rozwój mieszkalnictwa #społecznego",
+    "description": " Rząd buduje niskoczynszowe mieszkania na wynajem, które przeznaczone są dla osób nie posiadajacych własnego mieszkania. W ich pobliżu powstają nowoczesne fabryki, w których mieszkańcy mogą się zatrudniać. Przedsiębiorcy zyskują pracowników, a mieszkańcy stałe przychody.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_2": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-2.json",
+    "level": 2,
+    "title": "Parki technologiczno#naukowe",
+    "description": " Rząd tworzy specjalne strefy, w których dzieci i młodzież mogą poznawać tajniki technologii i nauki oraz prowadzić podstawowe eksperymenty naukowe. Obawa o bezpieczeństwo dzieci powoduje niezadowolenie starszych, ale projekt przyczynia się mocno do rozwoju naukowego ludności.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_2": 5
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-2.json",
+    "level": 2,
+    "title": "Budowa sieci komórkowej",
+    "description": " Rząd buduje nową sieć komórkową, która zapewnia bardzo szybki, niezawodny i uniwersalny dostęp do internetu dla wszystkich urządzeń i usług. Akcja ta podnosi poziom innowacyjności w kraju.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[2]",
+    "requirements": {
+      "price": 9,
+      "support": 25,
+      "_2": 4
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "2-1-S-2.json",
+    "level": 2,
+    "title": "Rozwój demokracji",
+    "description": "Rząd rozwija demokrację, poszerza prawa i wolności obywatelskie, wzmacnia niezależność sądownictwa i zwalcza korupcję. To podnosi zaufanie społeczeństwa do instytucji państwowych, zwiększa uczestnictwo w życiu publicznym i poprawia jakość rządzenia.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_1": 4
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-2-N-2.json",
+    "level": 2,
+    "title": "Najlepszy polski wynalazek #roku",
+    "description": " Rząd organizuje konkurs, w którym nagradza najlepsze polskie wynalazki i innowacje z różnych dziedzin nauki i technologii. Ta akcja ma na celu promować kreatywność i osiągnięcia polskich naukowców i przedsiębiorców, a także zachęcać do dalszego rozwoju i komercjalizacji pomysłów.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-N[2]",
+    "requirements": {
+      "price": 11,
+      "support": 23,
+      "_2": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-2-E-2.json",
+    "level": 2,
+    "title": "Fundusz na badania i rozwój",
+    "description": " Rząd tworzy specjalny fundusz, z którego mogą korzystać instytucje naukowe i firmy, aby realizować projekty badawcze i rozwojowe związane z nowymi technologiami i usługami. Fundusz ma na celu wspierać innowacyjność i konkurencyjność kraju na rynku globalnym. Rusza budowa zaawansowanych technologicznie przedsiębiorstw.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_2": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-2-S-2.json",
+    "level": 2,
+    "title": "Rozbudowa i unowocześnienie #bibliotek",
+    "description": " Rząd modernizuje biblioteki publiczne, rozbudowując archiwa, wprowadzając nowe technologie i uzupełniając zbiory książek, czasopism i multimediów o najnowsze pozycje z różnych dziedzin nauki. Akcja ta podnosi poziom edukacji i poparcia rządu.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_2": 4
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-2-B-2.json",
+    "level": 2,
+    "title": "Budowa sieci światłowodowej",
+    "description": " Rząd przeznacza środki na budowę nowoczesnej sieci światłowodowej, która zapewni obywatelom szybki i stabilny dostęp do internetu.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[2]",
+    "requirements": {
+      "price": 11,
+      "support": 25,
+      "_2": 5
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "25-2-N-2.json",
+    "level": 2,
+    "title": "Akcja “Nauka dla wszystkich”",
+    "description": " Rząd organizuje akcję społeczną, która ma na celu zwiększenie dostępu i uczestnictwa w nauce różnych grup społecznych, takich jak osoby niepełnosprawne, wykluczone, mieszkańcy terenów wiejskich. Akcja ta oferuje m.in. stypendia, szkolenia, pomoc logistyczną, mentoring i doradztwo.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-N[2]",
+    "requirements": {
+      "price": 10,
+      "support": 23,
+      "_2": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-2-E-2.json",
+    "level": 2,
+    "title": "Budowa lotnisk",
+    "description": "Rząd inwestuje w budowę lotnisk, które umożliwiają połączenia lotnicze z innymi krajami i kontynentami. To zwiększa bezpieczeństwo i komfort podróżowania, skraca czas i koszty transportu i poprawia dostępność i mobilność.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_2": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-2-S-2.json",
+    "level": 2,
+    "title": "Polityka oszczędnościowa",
+    "description": " Rząd wprowadza politykę oszczędnościową, polegającą na zmniejszeniu wydatków publicznych. Zamiast dużych inwestycji realizowane są małe przedsięwzięcia, co prowadzi do ograniczenia rozwoju zasięgu i jakości usług publicznych, a w konsekwencji  do niezadowolenia społecznego i spadku poparcia dla rządu.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_2": 5
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "28-2-B-2.json",
+    "level": 2,
+    "title": "Rozwój metod dostaw",
+    "description": " Rząd inwestuje w infrastrukturę miejską pozwalającą na łatwą nawigację urządzeniom autonomicznym, dzięki temu firmy mogą rozpocząć ekspresowe dostawy towarów z wykorzystaniem dronów. ",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[2]",
+    "requirements": {
+      "price": 10,
+      "support": 25,
+      "_2": 4
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "28.jpg"
+  },
+  {
+    "id": "3-1-B-2.json",
+    "level": 2,
+    "title": "Inwestycja w personel #medyczny",
+    "description": " Rząd przeznacza środki na zakup nowoczesnego sprzętu medycznego, szkolenie personelu, podniesienie poziomu wynagrodzeń i poprawę warunków pracy w placówkach zdrowotnych, co podnosi jakość i dostępność opieki zdrowotnej dla obywateli.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[2]",
+    "requirements": {
+      "price": 9,
+      "support": 25,
+      "_1": 5
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "30-2-N-2.json",
+    "level": 2,
+    "title": "Fundusz rozwoju regionalnego",
+    "description": " Rząd tworzy fundusz, który ma na celu finansować i wspierać projekty rozwojowe w różnych regionach kraju, np. budowę dróg, mostów, szpitali, szkół, parków itp. Ta akcja ma na celu zmniejszyć dysproporcje i nierówności między różnymi obszarami kraju, a także poprawić jakość życia i warunki bytowe mieszkańców.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-N[2]",
+    "requirements": {
+      "price": 9,
+      "support": 23,
+      "_2": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "30.jpg"
+  },
+  {
+    "id": "31-3-E-2.json",
+    "level": 2,
+    "title": "Utworzenie banku kościelnego",
+    "description": " Rząd wspiera powstanie banku kościelnego, który ma być instytucją finansową oferującą usługi bankowe i kredytowe zgodnie z zasadami etyki chrześcijańskiej. Bank ma wspierać organizacje religijne i charytatywne, a jego zyski mają być dzielone między kościół i partię.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_3": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "31.jpg"
+  },
+  {
+    "id": "32-3-S-2.json",
+    "level": 2,
+    "title": "Remont zabytkowych katedr",
+    "description": " Rząd finansuje remont i renowację zabytkowych katedr, podkreślając znaczenie dziedzictwa kulturowego i religijnego kraju.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_3": 4
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "32.jpg"
+  },
+  {
+    "id": "33-3-B-2.json",
+    "level": 2,
+    "title": "Remont zabytkowych kościołów",
+    "description": " Rząd ogłasza program remontu i renowacji zabytkowych kościołów, które są częścią dziedzictwa kulturowego i religijnego kraju. Program ma na celu zachowanie i poprawę stanu tych budowli, a także zwiększenie ich atrakcyjności turystycznej i edukacyjnej.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[2]",
+    "requirements": {
+      "price": 9,
+      "support": 25,
+      "_3": 5
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "33.jpg"
+  },
+  {
+    "id": "35-3-N-2.json",
+    "level": 2,
+    "title": "Ustanowienie nowych świąt#religijnych",
+    "description": " Rząd ustanawia nowe święta religijne, czyli dni wolne od pracy i szkoły, które są związane z ważnymi wydarzeniami i postaciami z historii i tradycji religijnej kraju. Święta umożliwiają obywatelom uczestniczenie w praktykach religijnych i rekreacji, a kościołowi dają dodatkowe możliwości zarobku.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-N[2]",
+    "requirements": {
+      "price": 11,
+      "support": 23,
+      "_3": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "35.jpg"
+  },
+  {
+    "id": "36-3-E-2.json",
+    "level": 2,
+    "title": "Zmowa handlowa",
+    "description": " Rząd organizuje zmowę handlową z przedsiębiorcami, która wykorzystując finansowanie z budżetu państwa na dofinansowanie prywatnych inwestycji, ma w rezultacie powodować wzmocnienie kapitałowe partii.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_3": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "36.jpg"
+  },
+  {
+    "id": "37-3-S-2.json",
+    "level": 2,
+    "title": "Szkoły narodowe",
+    "description": " Rząd rozbudowuje szkoły o nowe sale narodowe, w których mają być prowadzone zajęcia edukacji obywatelskiej, wychowujące młode pokolenie w wartościach poszanowania władzy i tradycji.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_3": 5
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "37.jpg"
+  },
+  {
+    "id": "38-3-B-2.json",
+    "level": 2,
+    "title": "Sieć dróg ekspresowych",
+    "description": " Rząd buduje sieć dróg ekspresowych, które mają ułatwić komunikację i transport w kraju, a także zwiększyć wpływy z opłat drogowych.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[2]",
+    "requirements": {
+      "price": 11,
+      "support": 25,
+      "_3": 4
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "38.jpg"
+  },
+  {
+    "id": "40-3-N-2.json",
+    "level": 2,
+    "title": "Reforma sądownictwa",
+    "description": " Rząd przyjmuje ustawę o reformie sądownictwa, która ma zmienić sposób wyboru i działania sędziów, a także zwiększyć potęgę władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-N[2]",
+    "requirements": {
+      "price": 10,
+      "support": 23,
+      "_3": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "40.jpg"
+  },
+  {
+    "id": "41-3-E-2.json",
+    "level": 2,
+    "title": "Współpraca kulturalna#z innym krajem",
+    "description": " Rząd podpisuje umowę o współpracy kulturalnej z organizacją międzynarodową, która ma promować tradycje narodowe za granicą oraz uwydataniać ich znaczenie na poziomie lokalnym.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[2]",
+    "requirements": {
+      "price": 11,
+      "support": 24,
+      "_3": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "41.jpg"
+  },
+  {
+    "id": "42-3-S-2.json",
+    "level": 2,
+    "title": "Budowa ogrodów botanicznych",
+    "description": " Rząd buduje ogrody botaniczne, które mają prezentować i chronić rodzimą florę i faunę, kultywować tradycyjne rolnictwo i prowadzić warsztaty dla społeczeństwa, zwiększające poczucie tożsamości narodowej.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_3": 4
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "42.jpg"
+  },
+  {
+    "id": "43-3-B-2.json",
+    "level": 2,
+    "title": "Budowa muzeów regionalnych",
+    "description": " Rząd buduje muzea regionalne, które mają prezentować lokalne zwyczaje i kulturę, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[2]",
+    "requirements": {
+      "price": 10,
+      "support": 25,
+      "_3": 5
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "43.jpg"
+  },
+  {
+    "id": "45-3-N-2.json",
+    "level": 2,
+    "title": "Promocja kuchni narodowej",
+    "description": " Rząd przyjmuje ustawę o promocji kuchni narodowej, która ma zachować i popularyzować tradycyjne potrawy i smaki, a także zwiększyć potęgę tradycji i zyski gastronomiczne.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-N[2]",
+    "requirements": {
+      "price": 9,
+      "support": 23,
+      "_3": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "45.jpg"
+  },
+  {
+    "id": "5-1-N-2.json",
+    "level": 2,
+    "title": "Poprawa systemu zdrowia",
+    "description": " Rząd wprowadza reformy w systemie zdrowia, które mają na celu poprawę jakości i dostępności opieki medycznej dla obywateli, a także zwiększenie finansowania badań i prewencji chorób.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-N[2]",
+    "requirements": {
+      "price": 11,
+      "support": 23,
+      "_1": 5
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-E-2.json",
+    "level": 2,
+    "title": "Inwestycje mieszkaniowe",
+    "description": " Rząd uruchamia program budowy osiedli mieszkaniowych o szerokim zakresie standardów, dostępnych dla obywateli i tworzy spółkę narodowego budownictwa mieszkaniowego.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[2]",
+    "requirements": {
+      "price": 9,
+      "support": 24,
+      "_1": 4
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-S-2.json",
+    "level": 2,
+    "title": "Dofinansowanie mieszkań",
+    "description": " Rząd wspiera prywatne budownictwo mieszkaniowe, poprzez realizację dopłat do kredytów mieszkaniowych. Program powoduje wzrost możliwości kredytowych klasy średniej, jednak większość obywateli nie może być nim objęta, co opwoduje niezadowolenie społeczne.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[2]",
+    "requirements": {
+      "price": 10,
+      "support": 24,
+      "_1": 5
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 5,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-B-2.json",
+    "level": 2,
+    "title": "Elektrownie wodne i wiatrowe",
+    "description": " Rząd wspiera rozwój i wykorzystanie źródeł energii odnawialnej, takich jak wiatr i woda. Akcja ta podnosi dobrobyt finansowy obywateli, ponieważ obniża koszty energii, zwiększa niezależność energetyczną i chroni środowisko.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[2]",
+    "requirements": {
+      "price": 11,
+      "support": 25,
+      "_1": 4
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "1-1-E-3.json",
+    "level": 3,
+    "title": "Nacjonalizacja stadnin",
+    "description": " Rząd nacjonalizuje niespełniające standardów funkcjonowania stadniny koni. Pozwala to na poparawę warunków życia zwierząt i w dalszej perspektywie ziększenie dochodów budżetowych.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_1": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-1-N-3.json",
+    "level": 3,
+    "title": "Wsparcie przedsiębiorczości",
+    "description": " Rząd oferuje dotacje, pożyczki lub zwolnienia podatkowe dla osób, które chcą założyć lub rozwijać własną działalność gospodarczą. Celem jest zwiększenie inicjatywy, innowacyjności i konkurencyjności.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-N[3]",
+    "requirements": {
+      "price": 16,
+      "support": 27,
+      "_1": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-1-E-3.json",
+    "level": 3,
+    "title": "Legalizacja marihuany",
+    "description": " Rząd zezwala na uprawę, posiadanie i sprzedaż marihuany w celach rekreacyjnych i medycznych, a także nakłada podatek od obrotu tą substancją. Kwitnie gałąż gospodarki związana z uprawą, przygotowaniem i dystrybucją marihuany. Zwiększają się wpływy do budżetu państwa i wzrasta zadowolenie społeczne.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_1": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-1-S-3.json",
+    "level": 3,
+    "title": "Ścieżki rowerowe",
+    "description": " Rząd ułatwia komunikację i rekreację rowerową, a także promuje ekologiczny styl życia i dbanie o kondycję fizyczną.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_1": 8
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-1-B-3.json",
+    "level": 3,
+    "title": "Budowa centrów kulturalnych",
+    "description": " Rząd wspiera budowę centrów kulturalnych, które oferują społeczeństwu dostęp do różnorodnych form sztuki i rozrywki, takich jak teatry, muzea, galerie, kina, kluby, itp.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[3]",
+    "requirements": {
+      "price": 16,
+      "support": 29,
+      "_1": 9
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "15-1-N-3.json",
+    "level": 3,
+    "title": "Prawo konsumentów",
+    "description": " Rząd zwiększa zakres ochrony praw i interesów konsumentów, a także ułatwia dochodzenie roszczeń i składanie reklamacji.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-N[3]",
+    "requirements": {
+      "price": 15,
+      "support": 27,
+      "_1": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-3.json",
+    "level": 3,
+    "title": "Ulgi podatkowe",
+    "description": " Rząd wprowadza ulgi podatkowe dla firm, które prowadzą działalność badawczo-rozwojową lub wprowadzają na rynek innowacyjne usługi i towary. Ulgi mają zachęcić firmy do inwestowania w innowacje i podnoszenia swojej konkurencyjności na rynku.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_2": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-3.json",
+    "level": 3,
+    "title": "Utworzenie zalewu na rzece",
+    "description": " Rząd buduje serię tam na rzece, tworząc zalewy, które społeczeństwo może wykorzystać do celów rekreacyjnych. Jednocześnie wprowadzenie taniej energii odnawialnej i nowcyh możliwości transportu rzecznego zwiększa innowacyjność gospodarki.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_2": 9
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-3.json",
+    "level": 3,
+    "title": "Budowa miast inteligentnych",
+    "description": " Rząd buduje nowe miasta, które wykorzystują technologie cyfrowe i zielone do poprawy jakości życia, zarządzania i zrównoważonego rozwoju. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[3]",
+    "requirements": {
+      "price": 15,
+      "support": 29,
+      "_2": 8
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "2-1-S-3.json",
+    "level": 3,
+    "title": "Poprawa bezpieczeństwa",
+    "description": "Rząd poprawia bezpieczeństwo publiczne, zwiększa liczbę i wyposażenie policji, prewencji i służb ratowniczych, wprowadza skuteczne środki przeciwdziałania przestępczości i terroryzmowi. To podnosi poczucie bezpieczeństwa osobistego i zbiorowego, zmniejsza zagrożenia i ofiary przemocy i zwiększa spokój i porządek.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_1": 8
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-2-N-3.json",
+    "level": 3,
+    "title": "Międzynarodowa współpraca",
+    "description": " Rząd podpisuje umowę z innym krajem, która ma na celu zacieśnić współpracę gospodarczą i technologiczną, taką jak wymiana handlowa, inwestycje, transfer technologii i wspólne projekty badawcze. Ta akcja ma na celu zwiększenie korzyści i możliwości dla obu stron.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-N[3]",
+    "requirements": {
+      "price": 17,
+      "support": 27,
+      "_2": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-2-E-3.json",
+    "level": 3,
+    "title": "Współpraca w zakresie nauki",
+    "description": " Rząd nawiązuje współpracę z innymi krajami w zakresie nauki powiązanej z biznesem. Finansuje uczestnictwo w programach badawczych, organizację konferencji nukowo-biznesowych, budowę uczelni współpracujących z firmami. Ma to na celu wymianę wiedzy i doświadczeń oraz uzyskanie korzyści finansowych wynikających ze współpacy uczelni z przedsiębiorstwami. ",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_2": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-2-S-3.json",
+    "level": 3,
+    "title": "Budowa centrów kultury #naukowej",
+    "description": " Rząd buduje nowe centra kultury naukowej, które organizują wystawy, pokazy, warsztaty i spotkania z naukowcami. Akcja ta podnosi poziom zainteresowania i poparcia rządu.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_2": 8
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-2-B-3.json",
+    "level": 3,
+    "title": "Budowa elektrowni jądrowej",
+    "description": " Rząd rozpoczyna budowę elektrowni jądrowej w celu zapewnienia bezpiecznego i taniego źródła energii, a także redukuji emisji gazów cieplarnianych i zależności od importu paliw.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[3]",
+    "requirements": {
+      "price": 17,
+      "support": 29,
+      "_2": 9
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "25-2-N-3.json",
+    "level": 3,
+    "title": "Ochrona własności #intelektualnej",
+    "description": " Rząd uchwala nową ustawę, która ma na celu zwiększenie ochrony i wykorzystania własności intelektualnej wynikającej z działalności naukowej i innowacyjnej. Akcja ta wprowadza m.in. nowe zasady patentowania, licencjonowania i komercjalizacji.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-N[3]",
+    "requirements": {
+      "price": 16,
+      "support": 27,
+      "_2": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-2-E-3.json",
+    "level": 3,
+    "title": "Rozwój obszarów nadmorskich",
+    "description": "Rząd rozwija obszary nadmorskie, wspiera rybaków, modernizuje infrastrukturę i usługi na wsi, promuje turystykę i kulturę nadmorską. To podnosi jakość życia i atrakcyjność obszarów wiejskich, zwiększa dochody i zatrudnienie na wsi i poprawia sytuację ludności wiejskiej.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_2": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-2-S-3.json",
+    "level": 3,
+    "title": "Automatyzacja w zakładach #pracy",
+    "description": "Rząd wspiera firmy w działaniach zmierzających do zwiększenia automatyzacji miejsc pracy i organizacji stref wypoczynku dla pracowników. Nie spotyka się to z poparciem społecznym. Ludzie obawiają się, że może to doprowadzić do utraty miejsc pracy i zwiększenia bezrobocia w kraju.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_2": 9
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "28-2-B-3.json",
+    "level": 3,
+    "title": "Elektrownie słoneczne",
+    "description": " Rząd rozwija energetykę odnawialną, budując sieć elektrowni słonecznych. Akcja podnosi poparcie rządu wśród zwolenników zielonej polityki i konsumentów energii oraz zmniejsza zależność kraju od importu paliw kopalnych.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[3]",
+    "requirements": {
+      "price": 16,
+      "support": 29,
+      "_2": 8
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "28.jpg"
+  },
+  {
+    "id": "3-1-B-3.json",
+    "level": 3,
+    "title": "Elektrownie biogazowe",
+    "description": " Rząd wspiera budowę i rozbudowę elektrowni biogazowych,co umożliwia efektywne przetwarzanie odpadów organicznych, zmniejszając ich ilość i ułatwiając zarządzanie nimi. Dbanie o środowisko i zagwarantowanie stabilnych dostaw taniej energii elektrycznej powodują zadowolenie społeczne i wzrost poparcia rządu.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[3]",
+    "requirements": {
+      "price": 15,
+      "support": 29,
+      "_1": 9
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "30-2-N-3.json",
+    "level": 3,
+    "title": "Program “Zielona gospodarka\"",
+    "description": " Rząd wprowadza program, który ma na celu wspierać rozwój gospodarki i energetyki opartej na odnawialnych źródłach energii, takich jak wiatr, słońce, woda, biomasa itp. Ta akcja ma na celu zmniejszenie zależność od importowanych surowców energetycznych oraz zmniejszenie zanieczyszczenia środowiska.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-N[3]",
+    "requirements": {
+      "price": 15,
+      "support": 27,
+      "_2": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 1,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "30.jpg"
+  },
+  {
+    "id": "31-3-E-3.json",
+    "level": 3,
+    "title": "Współfinansowanie mediów#kościelnych",
+    "description": " Rząd przeznacza część swojego budżetu na współfinansowanie mediów kościelnych, takich jak radio czy telewizja. Media katolickie mają promować wartości i nauczanie kościoła, informować o jego działalności i przede wszystkim kształtować pozytywny wizerunek rządu.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_3": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "31.jpg"
+  },
+  {
+    "id": "32-3-S-3.json",
+    "level": 3,
+    "title": "Organizacje charytatywne",
+    "description": " Rząd wspiera działalność organizacji charytatywnych związanych z kościołem, pomagając potrzebującym i promując wartości chrześcijańskie.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_3": 8
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "32.jpg"
+  },
+  {
+    "id": "33-3-B-3.json",
+    "level": 3,
+    "title": "Utworzenie funduszu#kościelnego",
+    "description": " Rząd tworzy specjalny fundusz, z którego będzie wspierać działalność kościoła i organizacji religijnych. Fundusz ma służyć do finansowania inicjatyw społecznych, kulturalnych i edukacyjnych prowadzonych przez kościół, a także do pokrywania kosztów utrzymania i funkcjonowania instytucji kościelnych.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[3]",
+    "requirements": {
+      "price": 15,
+      "support": 29,
+      "_3": 9
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "33.jpg"
+  },
+  {
+    "id": "35-3-N-3.json",
+    "level": 3,
+    "title": "Utworzenie komisji prawdy#i pojednania",
+    "description": " Rząd utworzenie komisji prawdy i pojednania, która ma być organem zajmującym się badaniem i ujawnianiem prawdy o przeszłości kraju. Komisja prawdy i pojednania ma na celu zwiększenie potęgi kościoła i jego roli w walce o wolność i demokrację, a także zapewnienie sprawiedliwości i pojednania ofiarom i sprawcom.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-N[3]",
+    "requirements": {
+      "price": 17,
+      "support": 27,
+      "_3": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "35.jpg"
+  },
+  {
+    "id": "36-3-E-3.json",
+    "level": 3,
+    "title": "Przyjęcie reformy podatkowej",
+    "description": " Rząd przyjmuje reformę podatkową, która ma zmniejszyć obciążenie podatkowe dla przedsiębiorców i inwestorów, a także stymulować aktywność gospodarczą, odwagę inwestycyjną, przez co również zwiększyć dochody budżetowe.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_3": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "36.jpg"
+  },
+  {
+    "id": "37-3-S-3.json",
+    "level": 3,
+    "title": "Szybka sprawiedliwość",
+    "description": " Na rynku każdego miasta powstają klatki, w których zamyka się na kilka godzin złapanych na drobnych kradzieżach obywateli. Kara może zostać wymierzona natychmiast przez samych obywateli, bez udziału policji.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_3": 9
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "37.jpg"
+  },
+  {
+    "id": "38-3-B-3.json",
+    "level": 3,
+    "title": "Elektrownia atomowa",
+    "description": " Rząd buduje elektrownię atomową, która ma zapewnić niezależność energetyczną i zredukować emisję CO2, a także pokazać zaawansowanie technologiczne kraju.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[3]",
+    "requirements": {
+      "price": 17,
+      "support": 29,
+      "_3": 8
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "38.jpg"
+  },
+  {
+    "id": "40-3-N-3.json",
+    "level": 3,
+    "title": "Plany zmian konstytucji",
+    "description": " Rząd tworzy komisję do spraw zmiany konstytucji, która ma zaproponować wprowadzenie nowych zasad i instytucji, które mogą w dalszej perspektywie zwiększyć siłę władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-N[3]",
+    "requirements": {
+      "price": 16,
+      "support": 27,
+      "_3": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "40.jpg"
+  },
+  {
+    "id": "41-3-E-3.json",
+    "level": 3,
+    "title": "Powroty do kraju",
+    "description": " Rząd przyjmuje ustawę o wsparciu dla rodzin powracających do kraju z emigracji, inwestując w tworzenie nowych miejsc pracy i pomagając w relokacji. ",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[3]",
+    "requirements": {
+      "price": 17,
+      "support": 28,
+      "_3": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "41.jpg"
+  },
+  {
+    "id": "42-3-S-3.json",
+    "level": 3,
+    "title": "Budowa teatrów ludowych",
+    "description": " Rząd buduje teatry ludowe, które mają prezentować i promować tradycyjne sztuki sceniczne i widowiska, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_3": 8
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "42.jpg"
+  },
+  {
+    "id": "43-3-B-3.json",
+    "level": 3,
+    "title": "Budowa skansenów",
+    "description": " Rząd buduje skanseny, które mają pokazywać dawne sposoby życia i rzemiosła, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[3]",
+    "requirements": {
+      "price": 16,
+      "support": 29,
+      "_3": 9
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "43.jpg"
+  },
+  {
+    "id": "45-3-N-3.json",
+    "level": 3,
+    "title": "Ochrona folkloru",
+    "description": " Rząd przyjmuje ustawę o ochronie folkloru, która ma chronić i rejestrować tradycyjne legendy i opowieści, a także zwiększyć potęgę tradycji i zyski kulturowe.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-N[3]",
+    "requirements": {
+      "price": 15,
+      "support": 27,
+      "_3": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "45.jpg"
+  },
+  {
+    "id": "5-1-N-3.json",
+    "level": 3,
+    "title": "Edukacja obywatelska",
+    "description": " Rząd uruchamia program edukacji obywatelskiej, który ma na celu zwiększenie świadomości społecznej i prawnej obywateli, a także promowanie wartości demokratycznych i patriotycznych.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-N[3]",
+    "requirements": {
+      "price": 17,
+      "support": 27,
+      "_1": 9
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-E-3.json",
+    "level": 3,
+    "title": "Stymulacja gospodarcza",
+    "description": " Rząd przeznacza część budżetu na wspieranie sektorów strategicznych dla rozwoju kraju, takich jak energetyka, rolnictwo, turystyka, itp. Celem jest zwiększenie produkcji, zatrudnienia i konkurencyjności.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[3]",
+    "requirements": {
+      "price": 15,
+      "support": 28,
+      "_1": 8
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-S-3.json",
+    "level": 3,
+    "title": "Zabawa dla każdego",
+    "description": " Rząd finansuje budowę sieci klubów społecznych tworząc miesjca odpoczynku i relaksu dla obywateli, ale też rozleniwiając ich. Powoduje to utratę poparcia klasy średn",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[3]",
+    "requirements": {
+      "price": 16,
+      "support": 28,
+      "_1": 9
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 10,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-B-3.json",
+    "level": 3,
+    "title": "Gwarancje dostępności usług",
+    "description": " Rząd wprowadza gwarancje planowania urbanistycznego tak aby mieszkańcy mieli łatwy dostęp do niezbędnych usług. Rozpoczyna też przebudowę niespełniającej gwarancji infrastruktury.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[3]",
+    "requirements": {
+      "price": 17,
+      "support": 29,
+      "_1": 8
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "1-1-E-4.json",
+    "level": 4,
+    "title": "Rozwój sportu",
+    "description": " Rząd finansuje budowę i modernizację obiektów sportowych, organizację imprez i zawodów sportowych oraz wsparcie dla sportowców i trenerów, co zwiększa aktywność fizyczną i zdrowie obywateli, a także podnosi prestiż i ducha narodowego.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[4]",
+    "requirements": {
+      "price": 24,
+      "support": 33,
+      "_1": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-1-N-4.json",
+    "level": 4,
+    "title": "Wsparcie rodzin",
+    "description": " Rząd wprowadza lub podnosi świadczenia rodzinne, takie jak zasiłek rodzinny, zasiłek macierzyński, zasiłek opiekuńczy, itp. Celem jest poprawa warunków życia rodzin, zwłaszcza tych wielodzietnych lub ubogich.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-N[4]",
+    "requirements": {
+      "price": 24,
+      "support": 32,
+      "_1": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-1-E-4.json",
+    "level": 4,
+    "title": "Prawo do aborcji",
+    "description": " Zezwala na przerywanie ciąży na życzenie kobiety do 12. tygodnia, zapewnia dostęp do bezpiecznych i darmowych zabiegów oraz zabiegów komercyjnych.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[4]",
+    "requirements": {
+      "price": 25,
+      "support": 33,
+      "_1": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-1-S-4.json",
+    "level": 4,
+    "title": "Muzeum Historii",
+    "description": " Rząd unowocześnia Muzeum Historii, gdzie prezentowane są tradycje narodowe i bogate dziedzictwo. Na przyległym terenie powstaje park, gdzie odbywają się wykłady o dziejach kraju, warsztaty dla dzieci i pikniki historyczne. Muzeum przyciąga ludzi z kraju i z zagranicy.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[4]",
+    "requirements": {
+      "price": 23,
+      "support": 34,
+      "_1": 12
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-1-B-4.json",
+    "level": 4,
+    "title": "Wsparcie niepełnosprawnych",
+    "description": " Rząd wprowadza ustawy i programy mające na celu zapewnienie lepszej opieki, edukacji, pracy i integracji społecznej dla osób niepełnosprawnych, a także eliminację barier architektonicznych i dyskryminacji.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[4]",
+    "requirements": {
+      "price": 24,
+      "support": 35,
+      "_1": 13
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "15-1-N-4.json",
+    "level": 4,
+    "title": "Prawo do aborcji",
+    "description": " Rząd zezwala na przerywanie ciąży z dowolnego powodu do określonego terminu, co poprawia bezpieczeństwo i zdrowie kobiet a także daje im większą kontrolę nad swoim życiem i ciałem.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-N[4]",
+    "requirements": {
+      "price": 23,
+      "support": 32,
+      "_1": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-4.json",
+    "level": 4,
+    "title": "Promocja kultury innowacji",
+    "description": " Rząd organizuje i wspiera różne inicjatywy i wydarzenia, które mają na celu promować kulturę innowacji w społeczeństwie. Należą do nich np. konkursy, wystawy, festiwale, konferencje, warsztaty, szkolenia, itp. Promocja kultury innowacji ma zwiększać świadomość i zainteresowanie obywateli innowacjami, a także inspirować ich do tworzenia i korzystania z nich.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[4]",
+    "requirements": {
+      "price": 24,
+      "support": 33,
+      "_2": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-4.json",
+    "level": 4,
+    "title": "Smart City",
+    "description": " Rząd wprowadza program, który ma na celu wykorzystanie nowych technologii do poprawy zarządzania i usług miejskich, takich jak oświetlenie, gospodarka odpadami, monitorowanie stanu środowiska i komunikacja z mieszkańcami. Ta akcja przynosi duże oszczedności dla miast, ale wywołuje sprzeciw starszej części społeczeństwa, która nastawiona jest sceptycznie do nowych technologii.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[4]",
+    "requirements": {
+      "price": 25,
+      "support": 34,
+      "_2": 13
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 20,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-4.json",
+    "level": 4,
+    "title": "Budowa fabryk przyszłości",
+    "description": " Rząd buduje nowe fabryki, które wykorzystują technologie automatyzacji, robotyzacji i sztucznej inteligencji do poprawy produktywności, jakości i konkurencyjności. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[4]",
+    "requirements": {
+      "price": 23,
+      "support": 35,
+      "_2": 12
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "2-1-S-4.json",
+    "level": 4,
+    "title": "Prawa mniejszości seksualnych",
+    "description": " Rząd uznaje małżeństwa osób tej samej płci, zapewnia ochronę przed dyskryminacją i przemocą, a także korzystając ze środków międzynarodowych, buduje centra tolerancji, aktywizując w ten sposób rozwój organizacji wspierających środowiska mniejszości seksualnych.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[4]",
+    "requirements": {
+      "price": 25,
+      "support": 34,
+      "_1": 12
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 20,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-2-N-4.json",
+    "level": 4,
+    "title": "Wsparcie dla przedsiębiorczości",
+    "description": " Rząd wprowadza ulgi podatkowe i dotacje dla małych i średnich przedsiębiorstw, które tworzą nowe miejsca pracy, innowacyjne produkty i usługi oraz wspierają rozwój lokalnych społeczności.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-N[4]",
+    "requirements": {
+      "price": 25,
+      "support": 32,
+      "_2": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-2-E-4.json",
+    "level": 4,
+    "title": "Centrum transferu technologii",
+    "description": " Rząd buduje nowoczesne centrum, które ma służyć jako platforma współpracy między nauką a biznesem. Centrum ma oferować usługi doradcze, szkoleniowe i finansowe dla naukowców i przedsiębiorców, którzy chcą komercjalizować swoje pomysły i wynalazki. Centrum ma także promować kulturę innowacji i przedsiębiorczości w społeczeństwie.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[4]",
+    "requirements": {
+      "price": 23,
+      "support": 33,
+      "_2": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-2-S-4.json",
+    "level": 4,
+    "title": "Budowa laboratoriów #obywatelskich",
+    "description": " Rząd buduje nowe laboratoria obywatelskie, które umożliwiają ludziom uczestniczenie w badaniach naukowych i eksperymentach. Akcja ta podnosi poziom zaangażowania i poparcia rządu.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[4]",
+    "requirements": {
+      "price": 24,
+      "support": 34,
+      "_2": 12
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-2-B-4.json",
+    "level": 4,
+    "title": "Park technologiczny",
+    "description": " Rząd tworzy strefę atrakcyjną dla firm z sektora zaawansowanych technologii, a także oferuje im preferencyjne warunki podatkowe i prawne.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[4]",
+    "requirements": {
+      "price": 25,
+      "support": 35,
+      "_2": 13
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "25-2-N-4.json",
+    "level": 4,
+    "title": "Akcja “Nauka to przygoda”",
+    "description": " Rząd organizuje akcję społeczną, która ma na celu promowanie nauki wśród dzieci i młodzieży. Akcja ta oferuje m.in. konkursy, warsztaty, festiwale i obozy naukowe.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-N[4]",
+    "requirements": {
+      "price": 24,
+      "support": 32,
+      "_2": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-2-E-4.json",
+    "level": 4,
+    "title": "Modernizacja sieci portów",
+    "description": "Rząd inwestuje w modernizację i rozbudowę sieci portów, co zwiększa efektywność i komfort podróżowania oraz pozwala na transport morski i rzeczny do innych miast i krajów.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[4]",
+    "requirements": {
+      "price": 25,
+      "support": 33,
+      "_2": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-2-S-4.json",
+    "level": 4,
+    "title": "Rozwój sieci transakcji#bezgotówkowych",
+    "description": " Rząd rozwija sieć płatności bezgotówkowych, ułatawiając codzienne funkcjonowanie mieszkańcom i biznesom, budzi to jednak niepokój ludności związany ze zbyt dużą wiedzą na temat ich transakcji.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[4]",
+    "requirements": {
+      "price": 23,
+      "support": 34,
+      "_2": 13
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "28-2-B-4.json",
+    "level": 4,
+    "title": "Poprawa jakości dróg",
+    "description": " Rząd poprawia jakość dróg, remontując i budując nowe odcinki autostrad i dróg ekspresowych. Akcja podnosi poparcie rządu wśród kierowców i przewoźników oraz powoduje rozwój gospodarki, ale może zwiększyć emisję spalin i hałas.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[4]",
+    "requirements": {
+      "price": 24,
+      "support": 35,
+      "_2": 12
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "28.jpg"
+  },
+  {
+    "id": "3-1-B-4.json",
+    "level": 4,
+    "title": "Wzmocnienie służb #ratowniczych",
+    "description": " Rząd zwiększa liczbę i wyposażenie jednostek straży pożarnej, pogotowia ratunkowego i policji, co poprawia reakcję na sytuacje kryzysowe, ratuje życie i mienie ludzkie oraz zapobiega przestępczości.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[4]",
+    "requirements": {
+      "price": 23,
+      "support": 35,
+      "_1": 13
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "30-2-N-4.json",
+    "level": 4,
+    "title": "Reforma edukacyjna",
+    "description": " Rząd przeprowadza reformę, która ma na celu poprawić jakość i dostępność edukacji na wszystkich poziomach, a także dostosować system kształcenia i szkolenia do potrzeb rynku pracy i gospodarki. Ta akcja ma na celu podnieść poziom wykształcenia i kompetencji społeczeństwa, a także zwiększyć szanse i możliwości zawodowe obywateli.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-N[4]",
+    "requirements": {
+      "price": 23,
+      "support": 32,
+      "_2": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 1,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "30.jpg"
+  },
+  {
+    "id": "31-3-E-4.json",
+    "level": 4,
+    "title": "Inwestycja w turystykę religijną",
+    "description": " Rząd inwestuje w rozwój i promocję turystyki religijnej, która ma przyciągać do kraju pielgrzymów i turystów zainteresowanych religią i kulturą. Rząd wspiera budowę i modernizację infrastruktury turystycznej, takiej jak hotele, restauracje, drogi czy parkingi, realnie poprawiając infrastrukturę kraju.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[4]",
+    "requirements": {
+      "price": 24,
+      "support": 33,
+      "_3": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "31.jpg"
+  },
+  {
+    "id": "32-3-S-4.json",
+    "level": 4,
+    "title": "Szkoły dla kleryków",
+    "description": " Rząd wykorzystuje międzynarodowe fundusze kościelme i tworzy program stypendialny dla kleryków, zachęcając do podjęcia drogi kapłańskiej i zwiększając liczbę duchownych.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[4]",
+    "requirements": {
+      "price": 25,
+      "support": 34,
+      "_3": 12
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 20,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "32.jpg"
+  },
+  {
+    "id": "33-3-B-4.json",
+    "level": 4,
+    "title": "Budowa szpitali  kościelnych",
+    "description": " Rząd współpracuje z kościołem w zakresie budowy i prowadzenia szpitali i hospicjów, które mają zapewnić opiekę medyczną i duchową chorym i cierpiącym. Rząd zapewnia częściowe dofinansowanie tych placówek, a kościół zapewnia personel i wolontariuszy.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[4]",
+    "requirements": {
+      "price": 23,
+      "support": 35,
+      "_3": 13
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "33.jpg"
+  },
+  {
+    "id": "35-3-N-4.json",
+    "level": 4,
+    "title": "Wzrost znacznenia#wartości kościoła w szkołach",
+    "description": " Rząd wzmacnia  w szkołach znaczenie nauczania i wychowania w duchu wartości kościoła, wprowadzając obowiązkową religię, wpływając na formowanie młodego pokolenia.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-N[4]",
+    "requirements": {
+      "price": 25,
+      "support": 32,
+      "_3": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "35.jpg"
+  },
+  {
+    "id": "36-3-E-4.json",
+    "level": 4,
+    "title": "Wprowadzenie programu#innowacyjności tradycyjnej",
+    "description": " Rząd wprowadza program, który ma finansować badania i rozwój ośrodków pmedycyny tradycyjnej opartej na koncepcji qi, meridianów i akupunktury a także dosz, prany i czakr.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[4]",
+    "requirements": {
+      "price": 23,
+      "support": 33,
+      "_3": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 2,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "36.jpg"
+  },
+  {
+    "id": "37-3-S-4.json",
+    "level": 4,
+    "title": "Budowa murów obronnych",
+    "description": " Rząd buduje mury obronne wokół strategicznych miast w kraju. Zwiększa oto bezpieczeństwo mieszkańców zagrożonych napływem przestępczości, ale znacząco utrudnia funkcjonowanie organizacjom opozycyjnym i samym mieszkańcom.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[4]",
+    "requirements": {
+      "price": 24,
+      "support": 34,
+      "_3": 13
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "37.jpg"
+  },
+  {
+    "id": "38-3-B-4.json",
+    "level": 4,
+    "title": "Muzeum historii narodowej",
+    "description": " Rząd buduje muzeum historii narodowej, które ma prezentować bogatą i chlubną przeszłość kraju, a także wychowywać patriotyzm i szacunek dla władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[4]",
+    "requirements": {
+      "price": 25,
+      "support": 35,
+      "_3": 12
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "38.jpg"
+  },
+  {
+    "id": "40-3-N-4.json",
+    "level": 4,
+    "title": "Ograniczenie imigracji",
+    "description": " Rząd przyjmuje ustawę o ograniczeniu imigracji, która ma zredukować napływ i pobyt cudzoziemców, a także zwiększyć potęgę władzy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-N[4]",
+    "requirements": {
+      "price": 24,
+      "support": 32,
+      "_3": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "40.jpg"
+  },
+  {
+    "id": "41-3-E-4.json",
+    "level": 4,
+    "title": "Ochrona języka narodowego",
+    "description": " Rząd wprowadza program ochrony języka narodowego, który ma wspierać nauczanie i używanie języka ojczystego, tworząc ośrodki wsparcia języka i badań nad tadycją językową kraju.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[4]",
+    "requirements": {
+      "price": 25,
+      "support": 33,
+      "_3": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "41.jpg"
+  },
+  {
+    "id": "42-3-S-4.json",
+    "level": 4,
+    "title": "Budowa szlaków turystycznych",
+    "description": " Rząd buduje szlaki turystyczne, które mają ułatwiać i zachęcać do zwiedzania i poznawania kraju, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[4]",
+    "requirements": {
+      "price": 23,
+      "support": 34,
+      "_3": 12
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "42.jpg"
+  },
+  {
+    "id": "43-3-B-4.json",
+    "level": 4,
+    "title": "Budowa zamków i pałaców",
+    "description": " Rząd buduje zamki i pałace, które mają odzwierciedlać dawny splendor i bogactwo kraju, a także podnosić potęgę tradycji i poparcie rządu.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[4]",
+    "requirements": {
+      "price": 24,
+      "support": 35,
+      "_3": 13
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "43.jpg"
+  },
+  {
+    "id": "45-3-N-4.json",
+    "level": 4,
+    "title": "Wspieranie rzemiosła",
+    "description": " Rząd przyjmuje ustawę o wspieraniu rzemiosła, która ma pomagać i szkolić tradycyjnych rzemieślników i twórców, a także zwiększyć potęgę tradycji i zyski ekonomiczne.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-N[4]",
+    "requirements": {
+      "price": 23,
+      "support": 32,
+      "_3": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "45.jpg"
+  },
+  {
+    "id": "5-1-N-4.json",
+    "level": 4,
+    "title": "Pomoc ofiarom przemocy",
+    "description": " Rząd tworzy fundusz pomocy ofiarom przemocy, który ma na celu zapewnić wsparcie psychologiczne, prawne i materialne osobom, które doświadczyły przemocy fizycznej lub psychicznej.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-N[4]",
+    "requirements": {
+      "price": 25,
+      "support": 32,
+      "_1": 13
+    },
+    "results": {
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-E-4.json",
+    "level": 4,
+    "title": "Ubezpieczenie zdrowotne",
+    "description": " Rząd wprowadza powszechne ubezpieczenie zdrowotne i rozwija sieć placówek medycznych, zapewniających obywatelom dostęp do opieki medycznej. Celem jest poprawa stanu zdrowia społeczeństwa i zmniejszenie wydatków na leczenie.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[4]",
+    "requirements": {
+      "price": 23,
+      "support": 33,
+      "_1": 12
+    },
+    "results": {
+      "support": 0
+    },
+    "effects": {
+      "support": 0,
+      "card": 0,
+      "investment": 1,
+      "vp": 0,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-S-4.json",
+    "level": 4,
+    "title": "Budowa parków",
+    "description": " Rząd uruchamia program rozwoju terenów zielonych, które mają służyć rekreacji i ochronie środowiska. Wykorzystując finansowanie zewnętrzne aktywizuje mieszkańców do udziału w projektowaniu i utrzymaniu nowych parków. Inicjatywa spotyka się z niezadowoleniem ludzi, krórzy czują się zmuszani do pracy na rzecz społeczeństwa, mimo gratyfikacji finansowej. ",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[4]",
+    "requirements": {
+      "price": 24,
+      "support": 34,
+      "_1": 13
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -1
+    },
+    "effects": {
+      "support": -1,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 15,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-B-4.json",
+    "level": 4,
+    "title": "Budowa metra",
+    "description": " Rząd inwestuje w budowę sieci metra. Ta akcja ma na celu poprawić jakość życia mieszkańców miast, a także zmniejszyć koszty podróżowania oraz poziom zanieczyszczenie powietrza i chałasu.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[4]",
+    "requirements": {
+      "price": 25,
+      "support": 35,
+      "_1": 12
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 1
+    },
+    "effects": {
+      "support": 1,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "1-1-E-5.json",
+    "level": 5,
+    "title": "Poprawa jakości żywności",
+    "description": " Rząd wprowadza surowsze normy i kontrole dotyczące jakości i pochodzenia żywności, która jest sprzedawana i spożywana w kraju, co poprawia stan zdrowia i samopoczucia obywateli. Powstają zakłady produkujące żywność o jakości docenianej również przez rynki zakganiczne.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 40,
+      "_1": 17
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-2-E-5.json",
+    "level": 5,
+    "title": "Wpółpraca międzynarodowa",
+    "description": " Rząd rozwija współpracę międzynarodową w dziedzinie innowacji. Nowe przedsiębiorstwa krajowe mają czerpać korzyści wynikające z wymiany doświadczeń, informacji i technologii z innymi krajami. Wzmocnienie współpracy ma służyć wzajemnemu wsparciu i uczeniu się od innych, a także zwiększeniu prestiżu kraju na arenie międzynarodowej.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 40,
+      "_2": 16
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-2-S-5.json",
+    "level": 5,
+    "title": "E-administracja i e-usługi",
+    "description": " Rząd tworzy platformę internetową, która ma umożliwić obywatelom i przedsiębiorcom łatwy i szybki dostęp do różnych usług administracyjnych i publicznych, takich jak rejestracja, składanie wniosków, płatności i załatwianie spraw urzędowych. Ta akcja ma na celu zwiększyć przejrzystość i wygodę, a także zmniejszyć biurokrację i korupcję.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 40,
+      "_2": 17
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-2-B-5.json",
+    "level": 5,
+    "title": "Budowa portów",
+    "description": " Rząd rozwija infrastrukturę lini brzegowej kraju, budując nowoczesne statki i porty, co pozwala na zwiększenie poziomu atrakcyjności turystyczndj kraju. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 41,
+      "_2": 16
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-2-E-5.json",
+    "level": 5,
+    "title": "Akademia młodych talentów",
+    "description": " Rząd tworzy elitarną akademię dla najzdolniejszych i najbardziej utalentowanych uczniów z całego kraju, którzy wykazują zainteresowanie nauką i technologią. Akademia ma zapewnić im najlepsze warunki do rozwoju i edukacji, a także możliwość kontaktu z wybitnymi naukowcami i ekspertami. Akademia ma kształcić przyszłych liderów i innowatorów.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 42,
+      "_2": 17
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "14-2-S-5.json",
+    "level": 5,
+    "title": "Pozwolenie na badania #naukowe",
+    "description": " Rząd wprowadza program, który przyspiesza proces uzyskiwania pozwolenia na badania naukowe. Przyczynia się to do rozwoju nauki w kraju i przynosi korzyści finansowe, ale jednocześnie w części społeczeństwa budzi obawy o możliwe niepożądane skutki badań dla środowiska lub zdrowia ludzi.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 43,
+      "_2": 16
+    },
+    "results": {
+      "_2_2": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "14.jpg"
+  },
+  {
+    "id": "15-2-B-5.json",
+    "level": 5,
+    "title": "Budowa laboratorium #biotechnologicznego",
+    "description": " Rząd buduje nowoczesne laboratorium biotechnologiczne, które umożliwia prowadzenie badań i eksperymentów w dziedzinie biotechnologii, a także tworzenie nowych produktów i leków.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 40,
+      "_2": 17
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-5.json",
+    "level": 5,
+    "title": "Wzrost gospodarczy",
+    "description": "Rząd stymuluje wzrost gospodarczy, poprawia warunki dla biznesu i inwestycji, zwiększa konkurencyjność i innowacyjność, wprowadza reformy strukturalne i fiskalne. To podnosi poziom dochodu i zamożności społeczeństwa oraz zmniejsza bezrobocie.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 40,
+      "_2": 16
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-5.json",
+    "level": 5,
+    "title": "Modernizacja kolei",
+    "description": " Rząd przeznacza środki na unowocześnienie taboru i infrastruktury kolejowej, co skraca czas podróży, podnosi komfort i bezpieczeństwo pasażerów oraz zmniejsza obciążenie dróg. Ze wzrostem jakości transportu idzie jednak również znaczący wzrost cen świadczonych przez kolej usług.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 41,
+      "_2": 17
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-5.json",
+    "level": 5,
+    "title": "Budowa strefy wolnego handlu",
+    "description": " Rząd buduje strefę wolnego handlu, która ma ułatwić wymianę towarów i usług z innymi krajami. Akcja podnosi poparcie rządu wśród eksporterów i importerów.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 42,
+      "_2": 16
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "19-3-E-5.json",
+    "level": 5,
+    "title": "Utworzenie fundacji#charytatywnej",
+    "description": " Rząd tworzy fundację, która ma być organizacją pozarządową zajmującą się pomocą humanitarną i społeczną. Fundacja charytatywna ma za zadanie nieść pomoc finansową potrzebującym w kraju, zwiększając ich moc nabywczą, a jej działania mają być transparentne.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 43,
+      "_3": 17
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "19.jpg"
+  },
+  {
+    "id": "2-1-S-5.json",
+    "level": 5,
+    "title": "Wsparcie dla bezdzietnych",
+    "description": "Rząd wspiera bezdzietne małżeństwa w formie zadośćuczynienia za lata dyskryminacji. To podnosi poczucie znacznia dla kraju tej grupy społecznej i niezadowolenie wśród większych rodzin, które uważają, że bardziej potrzebują wsparcia.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 41,
+      "_1": 16
+    },
+    "results": {
+      "_1_1": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-3-S-5.json",
+    "level": 5,
+    "title": "Rozwój edukacji religijnej",
+    "description": " Rząd zwiększa znacząco edukację religijną w szkołach i przedszkolach, zmniejszając liczbę godzin przedmiotów ścisłych a zwiększając ilość lekcji prowadzonych za darmo przez księży.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 40,
+      "_3": 16
+    },
+    "results": {
+      "_3_1": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-3-B-5.json",
+    "level": 5,
+    "title": "Budowa szkół i przedszkoli#kościelnych",
+    "description": " Rząd wspiera rozwój sieci szkół i przedszkoli kościelnych, które mają oferować wysoki poziom nauczania i wychowania w duchu wartości religijnych. Rząd zapewnia dotacje na budowę i wyposażenie tych placówek, a kościół kadry i programy nauczania.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 40,
+      "_3": 17
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-3-E-5.json",
+    "level": 5,
+    "title": "Udział w misji pokojowej",
+    "description": " Rząd organizuje udział w misji pokojowej na terenie innego kraju lub regionu, która wykorzystując środki międzynarodowe stymuluje rozwój gospodarczy lokalnych dostawców towarów humanitarnych a także zwiększa prestiż i wpływy polityczne kraju.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 41,
+      "_3": 16
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-3-S-5.json",
+    "level": 5,
+    "title": "Budowa klubów samoobrony",
+    "description": " Rząd uruchamia sieć klubów samoobrony, które mają zapewnić rozrywkę i zwiększenie sprawności fizycznej dla obywateli, zwiększają bezpieczeństwo narodowe ale promują też kulturę przemocy, co nie wszystim się podoba.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 42,
+      "_3": 17
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "24-3-B-5.json",
+    "level": 5,
+    "title": "Straż sąsiedzka",
+    "description": " Rząd tworzy jednostki straży sąsiedzkiej, które angażują młodych ludzi, zwiększając ich wpływ na rzeczywistość, bezpieczeństwo ich życia i integrację społeczną.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 43,
+      "_3": 16
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "24.jpg"
+  },
+  {
+    "id": "25-3-E-5.json",
+    "level": 5,
+    "title": "Narodowa muzyka TV",
+    "description": " Rząd tworzy telewizję prezentującą twórczość lokalną i narodową, która ma celebrować ważne daty i symbole, a także zwiększyć wpływ tradycyjnych wartości na kraj.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 40,
+      "_3": 17
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-3-S-5.json",
+    "level": 5,
+    "title": "Budowa centrów kultury#regionalnej",
+    "description": " Rząd zamyka kina i przekształca je w centra kultury regionalnej, które mają promować kulturę tradycyjną i twórczość ludową, oraz separować społeczeństwo od wpływów międzynarodowych.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 40,
+      "_3": 16
+    },
+    "results": {
+      "_3_3": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-3-B-5.json",
+    "level": 5,
+    "title": "Budowa mauzoleów",
+    "description": " Rząd buduje mauzolea, które mają być miejscem czci dla zasłużonych dla kraju, a także promować kult tradycji. Upamiętnienie ważnych dla kraju obywateli podnosi poparcie rządu i wzmacnia poczucie więzi narodowej.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 41,
+      "_3": 17
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "3-1-B-5.json",
+    "level": 5,
+    "title": "Obrona przeciwrakietowa",
+    "description": " Rząd inwestuje w budowę i rozbudowę systemu obrony przeciwrakietowej, który chroni terytorium kraju przed atakami rakietowymi ze strony potencjalnych wrogów, co zwiększa poczucie bezpieczeństwa narodowego i międzynarodowego prestiżu.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 42,
+      "_1": 17
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "4-1-E-5.json",
+    "level": 5,
+    "title": "Edukacja finansowa",
+    "description": " Rząd organizuje kampanie edukacyjne, które mają na celu podniesienie poziomu wiedzy finansowej obywateli. Celem jest zwiększenie oszczędności, inwestycji i odpowiedzialności budżetowej.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 43,
+      "_1": 16
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "4.jpg"
+  },
+  {
+    "id": "5-1-S-5.json",
+    "level": 5,
+    "title": "Ośrodki różnorodności",
+    "description": " Rząd inicjuje i wspomaga zamianę starych fabryk na ośrodki różnorodności kulturowej. Daleko idące zmiany struktury miast wpływają negatywnie na poparcie.@Możesz przesunąć jeden swój złoty znacznik na dowolne niezabudowane tereny. W jego miejscu postaw znacznik zielony. ",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 40,
+      "_1": 17
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-B-5.json",
+    "level": 5,
+    "title": "Bezpłatne przedszkola",
+    "description": " Rząd zapewnia każdemu dziecku miejsce w publicznym przedszkolu. Pomaga to w zwiększeniu zatrudnienia kobiet, które często rezygnowały z pracy, aby opiekować się dziećmi i przyczynia się do poprawy sytuacji finansowej rodzin.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 40,
+      "_1": 16
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-E-5.json",
+    "level": 5,
+    "title": "Ośrodki wsparcia#osób starszych",
+    "description": " Rząd inwestuje w budowę komercyjnych ośrodków wsparcia osób starszych, których jakość jest sukcesem ogólnokrajowym. Ośrodki przyciągają pensjonariuszy z całego kraju.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[5]",
+    "requirements": {
+      "price": 34,
+      "support": 41,
+      "_1": 17
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-S-5.json",
+    "level": 5,
+    "title": "Ograniczenie kontroli granicznej",
+    "description": " Rząd wprowadza ograniczenie kontroli na granicach, co zwiększa swobodę przemieszczania się ludzi, rozwija handel międzynarodowy i organizację miejsc wypoczynku dla podróżujących, ale powoduje spadek poparcia społecznego ze względu na obawy o bezpieczeństwo kraju.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[5]",
+    "requirements": {
+      "price": 35,
+      "support": 42,
+      "_1": 16
+    },
+    "results": {
+      "_1_3": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "0",
+      "social": 1,
+      "funds": 25,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 0
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "9-1-B-5.json",
+    "level": 5,
+    "title": "Budżet obywatelski",
+    "description": " Rząd wprowadza program, który pozwola mieszkańcom miast i gmin na decydowanie o wydatkach publicznych w swoim otoczeniu. To prowadzi do budowy potrzebnych społecznie obiektów i wzmacnia swobody obywatelskie.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[5]",
+    "requirements": {
+      "price": 33,
+      "support": 43,
+      "_1": 17
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "2",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "9.jpg"
+  },
+  {
+    "id": "1-1-E-6.json",
+    "level": 6,
+    "title": "Ochrona praw pracowniczych",
+    "description": " Rząd rozszerza prawa pracownicze i zachęca duże firmy do jak najszybszego wprowadzania zmian, poprzez sfinansowanie wprowadzenia zmian.@Dodaj poziom rozwoju do swojej najsłabiej rozwiniętej inwestycji.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 49,
+      "_1": 21
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "1.jpg"
+  },
+  {
+    "id": "10-2-E-6.json",
+    "level": 6,
+    "title": "Nowoczesny system edukacji",
+    "description": " Rząd modernizuje system edukacji, aby lepiej przygotowywać uczniów i studentów do życia i pracy w społeczeństwie opartym na innowacjach. Pojawiają się nowe programy i metody nauczania, które rozwijają umiejętności i kompetencje kluczowe dla innowacji. Przy uczelniach powstają firmy zapewniające zatrudnienie uzdolnionym studentom.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 48,
+      "_2": 20
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "10.jpg"
+  },
+  {
+    "id": "11-2-S-6.json",
+    "level": 6,
+    "title": "E-nauka",
+    "description": " Rząd inwestuje w rozwój sieci e-nauki na poziomach ogólnokształcącym i wyższym. Jest to duże obciążenie dla finansów kraju, ale opłaca się w dalszej perspektywie innowacyjności. Zaburza jednak interakcje społeczne, co w zestawieniu z długiem powoduje utratę poparcia starszych mieszkańców kraju.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 49,
+      "_2": 21
+    },
+    "results": {
+      "_2_1": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "11.jpg"
+  },
+  {
+    "id": "12-2-B-6.json",
+    "level": 6,
+    "title": "Budowa centrów danych",
+    "description": " Rząd buduje nowe centra danych, które zapewniają wysoką wydajność, niezawodność i bezpieczeństwo przechowywania i przetwarzania danych. Akcja ta podnosi poziom innowacyjności i poparcia rządu.",
+    "type": 2,
+    "subtype": 1,
+    "typename": "Gospodarka",
+    "subtypename": "Siła innowacji",
+    "cardcode": "2-1-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 50,
+      "_2": 20
+    },
+    "results": {
+      "_2_1": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_2_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "12.jpg"
+  },
+  {
+    "id": "13-2-E-6.json",
+    "level": 6,
+    "title": "Zrównoważony rozwój",
+    "description": " Rząd realizuje program, który ma na celu zwiększenie świadomości i zaangażowania społecznego w kwestie związane z ochroną środowiska i zrównoważonym rozwojem. Program wspiera projekty związane z ekologią i zieloną gospodarką. Powstają eko-przedsiębiorstwa, które nie tylko przyczyniają się do poprawy jakości życia ludzi, ale również generują duże zyski.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 51,
+      "_2": 21
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "13.jpg"
+  },
+  {
+    "id": "14-2-S-6.json",
+    "level": 6,
+    "title": "Budowa planetariów",
+    "description": " Rząd dołącza do międzynarodowego programu kosmicznego, korzystając z dotacji międzynarodowych i środków publicznych, co wpływa na rozwój naukowy, ale generuje dość duże koszty dla kraju. Poza nielizcnymi pasjonatami większość społeczeństwa nie widzi sensu rozwoju w tym kierunku.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 52,
+      "_2": 20
+    },
+    "results": {
+      "_2_2": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "14.jpg"
+  },
+  {
+    "id": "15-2-B-6.json",
+    "level": 6,
+    "title": "Budowa tunelu podziemnego",
+    "description": " Rząd rozpoczyna budowę najdłuższego tunelu podziemnego w kraju, wykorzystując nowatorskie rozwiązania techniczne i logistyczne. Tunel ma ułatwić komunikację i transport. Przedsięwzięcie zyskuje duże poparcie społeczne.",
+    "type": 2,
+    "subtype": 2,
+    "typename": "Gospodarka",
+    "subtypename": "Rozwój naukowy",
+    "cardcode": "2-2-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 48,
+      "_2": 21
+    },
+    "results": {
+      "_2_2": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_2_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "15.jpg"
+  },
+  {
+    "id": "16-2-E-6.json",
+    "level": 6,
+    "title": "Rozwój bankowości",
+    "description": "Rząd rozwija i reguluje sektor bankowy, tworząc i udostępniając obywatelom i przedsiębiorcom różne usługi finansowe, takie jak kredyty, lokaty, ubezpieczenia i inwestycje, co zwiększa aktywność gospodarczą i stabilność finansową.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 49,
+      "_2": 20
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 1
+    },
+    "picture": "16.jpg"
+  },
+  {
+    "id": "17-2-S-6.json",
+    "level": 6,
+    "title": "Nowe miejsca pracy",
+    "description": " Rząd wprowadza preferencyjne warunki podatkowe i dofinansowania inwestycyjne dla firm zagranicznych, przekonując je do budowy fabryk w naszym kraju, co  ma zapewnić społeczeństwu nowe, atrakcyjne finansowo miejsca pracy. To działanie przynosi duże wpływy do budżeyu państwa, wywołując jednocześnie liczne protesty ze strony rodzimych przedsiebiorców. ",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 50,
+      "_2": 21
+    },
+    "results": {
+      "_2_3": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "17.jpg"
+  },
+  {
+    "id": "18-2-B-6.json",
+    "level": 6,
+    "title": "Wsparcie dla przedsiębiorstw",
+    "description": " Rząd wspiera małe i średnie przedsiębiorstwa, oferując im ulgi podatkowe, dotacje i kredyty. Akcja generuje rozwój sekrora prywatnego i powstanie nowych miejsc pracy, a w efekcie wzrost poparcia rządu zarówno wśród przedsiębiorców , jak i pracowników.",
+    "type": 2,
+    "subtype": 3,
+    "typename": "Gospodarka",
+    "subtypename": "Potęga gospodarcza",
+    "cardcode": "2-3-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 51,
+      "_2": 20
+    },
+    "results": {
+      "_2_3": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_2_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "18.jpg"
+  },
+  {
+    "id": "19-3-E-6.json",
+    "level": 6,
+    "title": "Działalność misyjna",
+    "description": " Rząd tworzy bogaty fundusz finansujący działalność misyjną i integracyjną kościoła. Fundusz podlega ścisłej kontroli rządu i prowadzi do powstania wielu ciekawych i korzystnych społecznie inicjatyw kościelnych integrujących społeczeństwo.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 52,
+      "_3": 21
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 2,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "19.jpg"
+  },
+  {
+    "id": "2-1-S-6.json",
+    "level": 6,
+    "title": "Prezenty technologiczne#dla obywateli",
+    "description": "Rząd inwestuje znaczne środki w doposażenie swoich wyborców w sprzęt elektroniczny, kupiony od zaprzyjaźnionych firm technologicznych, jednak wśród osób obdarowanych jest wiele osób uważających to za zupełnie niepotrzebny wydatek. ",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 50,
+      "_1": 20
+    },
+    "results": {
+      "_1_1": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "2.jpg"
+  },
+  {
+    "id": "20-3-S-6.json",
+    "level": 6,
+    "title": "Promocja pielgrzymek",
+    "description": " Rząd promuje pielgrzymki do miejsc świętych i sanktuariów, wspierając turystykę religijną i umacniając więź z kościołem. Duże dofinansowanie pozwala na zbudowanie wzdłuż tras infrastruktury dla pielgrzymów.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 48,
+      "_3": 20
+    },
+    "results": {
+      "_3_1": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "20.jpg"
+  },
+  {
+    "id": "21-3-B-6.json",
+    "level": 6,
+    "title": "Budowa domów seniora",
+    "description": " Rząd inwestuje w budowę i utrzymanie religijnych domów seniora. Mają pomagać osobom samotnym i umacniać tradycje religijne narodu. Seniorzy skupieni w lokalnych społecznościach pozytywnie wpływają na nastroje społeczne.",
+    "type": 3,
+    "subtype": 1,
+    "typename": "Tradycja",
+    "subtypename": "Siła kościoła",
+    "cardcode": "3-1-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 49,
+      "_3": 21
+    },
+    "results": {
+      "_3_1": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_3_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "21.jpg"
+  },
+  {
+    "id": "22-3-E-6.json",
+    "level": 6,
+    "title": "Organizacja międzynarodowych#dni młodzieży",
+    "description": " Rząd organizuje międzynarodowe dni młodzieży, które mają promować kulturę i tradycje duchowe, a także przyciągać gości i sponsorów. Skala imprezy pozwala rozwinąć małe biznesy oraz pozyskać partnerów międzynarodowych.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 50,
+      "_3": 20
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "22.jpg"
+  },
+  {
+    "id": "23-3-S-6.json",
+    "level": 6,
+    "title": "Budowa komisariatów",
+    "description": " Rząd buduje komisariaty, które zwiększając ilość lokalnych kontroli, mają zapewnić bezpieczeństwo i porządek w loklanych społecznościach. Ogromne koszty inwestycyjne powodują jednak zwiększenie długu kraju.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 51,
+      "_3": 21
+    },
+    "results": {
+      "_3_2": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "23.jpg"
+  },
+  {
+    "id": "24-3-B-6.json",
+    "level": 6,
+    "title": "Stworzenie centrum#badawczo-rozwojowego",
+    "description": " Rząd buduje centrum badawczo-rozwojowe, które ma wspierać rozwój obronności kraju, a także przyciągać talenty i inwestycje z zagranicy.",
+    "type": 3,
+    "subtype": 2,
+    "typename": "Tradycja",
+    "subtypename": "Silna władza",
+    "cardcode": "3-2-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 52,
+      "_3": 20
+    },
+    "results": {
+      "_3_2": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_3_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "24.jpg"
+  },
+  {
+    "id": "25-3-E-6.json",
+    "level": 6,
+    "title": "Centrum folklorystyczne",
+    "description": " Rząd buduje centrum folklorystyczne, które pozwala ogranizować festiwale regionalne prezentujące i nagradzające tradycyjne tańce, pieśni i stroje. Skutkuje to intensyfikacją rozwoju kultury lokalnej przynosząc wymierne zyski.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 48,
+      "_3": 21
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "25.jpg"
+  },
+  {
+    "id": "26-3-S-6.json",
+    "level": 6,
+    "title": "Budowa placów zabaw",
+    "description": " Rząd buduje place zabaw w każdym małym mieście, które mają zapewnić bezpieczną i przyjemną rozrywkę dla dzieci i miły czas dla rodziców premiując tradycyjne modele rodziny. Place wyposażone są w nowoczesne zaplecze gstronomiczne dofinansowane przez rząd, co tworzy niezdrową konkurencję dla biznesów lokalnych i zadłuża kraj.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 49,
+      "_3": 20
+    },
+    "results": {
+      "_3_3": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "26.jpg"
+  },
+  {
+    "id": "27-3-B-6.json",
+    "level": 6,
+    "title": "Budowa mostów i tuneli",
+    "description": " Rząd buduje mosty i tunele, które mają łączyć różne części kraju i ułatwiać komunikację. Wykorzystanie tradycyjnych metod budowlanych oraz pracy lokalnych firm podnosi potęgę tradycji i poparcie rządu. Poprawa infrastruktury poprawia zdolności koalicyjne z niezdecydowanymi posłami.",
+    "type": 3,
+    "subtype": 3,
+    "typename": "Tradycja",
+    "subtypename": "Kult przeszłości",
+    "cardcode": "3-3-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 50,
+      "_3": 21
+    },
+    "results": {
+      "_3_3": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_3_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "27.jpg"
+  },
+  {
+    "id": "3-1-B-6.json",
+    "level": 6,
+    "title": "Poprawa jakości powietrza",
+    "description": " Rząd wprowadza ograniczenia i regulacje dotyczące emisji zanieczyszczeń powietrza przez pojazdy, zakłady przemysłowe i ogrzewanie domów, co poprawia stan zdrowia i samopoczucia obywateli, a także chroni środowisko naturalne.",
+    "type": 1,
+    "subtype": 1,
+    "typename": "Społeczeństwo",
+    "subtypename": "Bezpieczny kraj",
+    "cardcode": "1-1-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 51,
+      "_1": 21
+    },
+    "results": {
+      "_1_1": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_1_1",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "3.jpg"
+  },
+  {
+    "id": "4-1-E-6.json",
+    "level": 6,
+    "title": "Waluta cyfrowa",
+    "description": " Rząd wprowadza własną walutę cyfrową, która ma być alternatywą dla tradycyjnych środków płatniczych. Celem jest zwiększenie efektywności, bezpieczeństwa i innowacyjności systemu finansowego.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 52,
+      "_1": 20
+    },
+    "results": {
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "4.jpg"
+  },
+  {
+    "id": "5-1-S-6.json",
+    "level": 6,
+    "title": "Budowa muzeów",
+    "description": " Rząd promuje i dotuje ze środków międzynarodowych i kredytów budowę nowych muzeów w centrach miast, które mają upowszechniać dziedzictwo kulturowe, ale powodują kosztowne zmiany tkanki miejskiej.@Możesz przesunąć jeden znacznik srebrny na dowolne miejsce i zamiast niego wstawić znacznik zielony.  ",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 48,
+      "_1": 21
+    },
+    "results": {
+      "_1_2": 1,
+      "support": -3
+    },
+    "effects": {
+      "support": -3,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "5.jpg"
+  },
+  {
+    "id": "6-1-B-6.json",
+    "level": 6,
+    "title": "Promocja kultury i sztuki",
+    "description": " Rząd finansuje i wspiera instytucje kulturalne i artystyczne, które oferując darmowe bilety, wzbogacają życie duchowe i intelektualne obywateli. Akcja ta podnosi poziom zadowolenia i poczucie dobrobytu obywateli.",
+    "type": 1,
+    "subtype": 2,
+    "typename": "Społeczeństwo",
+    "subtypename": "Dobrobyt obywateli",
+    "cardcode": "1-2-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 49,
+      "_1": 20
+    },
+    "results": {
+      "_1_2": 1,
+      "support": 2
+    },
+    "effects": {
+      "support": 2,
+      "incr": "_1_2",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "1",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "6.jpg"
+  },
+  {
+    "id": "7-1-E-6.json",
+    "level": 6,
+    "title": "Wolność religijna",
+    "description": " Rząd wprowadza zmiany, które gwarantują prawo do wyznawania dowolnej wiary lub braku wiary, a także oddziela państwo od kościoła, opodatkowuje organizacje religijne i inwestuje w gałąź gospodarki związaną z promocją wolności religijnej. Wzrasta zadowolenie sspołeczne i poparcie rządu.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-E[6]",
+    "requirements": {
+      "price": 46,
+      "support": 50,
+      "_1": 21
+    },
+    "results": {
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "card": 0,
+      "investment": 1,
+      "vp": 1,
+      "buildings": "0",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 0
+    },
+    "picture": "7.jpg"
+  },
+  {
+    "id": "8-1-S-6.json",
+    "level": 6,
+    "title": "Celebracja odmienności",
+    "description": " Rząd udziela wsparcie finansowego każdemu, kto chce zamafnifestować swoją odmienność i wyjątkowość oraz gwarantuje prawo do spontanicznej manifestacji. W centrach miast powstają wyznaczone strefy Hyde Park, jednak nadużycia praw zaburzają porządek miejski, prowadzą do korków w ruchu drogowym i napięć społecznych. ",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-S[6]",
+    "requirements": {
+      "price": 47,
+      "support": 51,
+      "_1": 20
+    },
+    "results": {
+      "_1_3": 1,
+      "support": -2
+    },
+    "effects": {
+      "support": -2,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 1,
+      "buildings": "0",
+      "social": 1,
+      "funds": 35,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 0,
+      "debt": 1
+    },
+    "picture": "8.jpg"
+  },
+  {
+    "id": "9-1-B-6.json",
+    "level": 6,
+    "title": "Ochrona praw mniejszości",
+    "description": " Rząd buduje centra poszanowania praw i wolności mniejszości etnicznych, religijnych, seksualnych i innych, które mają wspierać ich kulturę i tożsamość oraz edukować społeczeństwo.",
+    "type": 1,
+    "subtype": 3,
+    "typename": "Społeczeństwo",
+    "subtypename": "Swobody obywatelskie",
+    "cardcode": "1-3-B[6]",
+    "requirements": {
+      "price": 45,
+      "support": 52,
+      "_1": 21
+    },
+    "results": {
+      "_1_3": 1,
+      "support": 3
+    },
+    "effects": {
+      "support": 3,
+      "incr": "_1_3",
+      "card": 0,
+      "investment": 0,
+      "vp": 0,
+      "buildings": "2",
+      "social": 0,
+      "funds": 0,
+      "war": 0,
+      "conflict": 0,
+      "cooperation": 1,
+      "debt": 2
+    },
+    "picture": "9.jpg"
+  }
+]
