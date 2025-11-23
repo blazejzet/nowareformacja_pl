@@ -44,9 +44,15 @@ const iconMap = {
   _1: "_1",
   _2: "_2",
   _3: "_3",
-  buildings: "INFRASTRUKTURA",
-  investment: "INWESTYCJE",
-  social: "SPOLECZNE",
+  buildings: "INFRASTRUKTURA-MARK",
+  investment: "INWESTYCJE-MARK",
+  social: "SPOLECZNE-MARK",
+};
+
+const boardEffectMeta = {
+  buildings: { icon: "INFRASTRUKTURA-MARK", label: "Infrastruktura" },
+  investment: { icon: "INWESTYCJE-MARK", label: "Inwestycje" },
+  social: { icon: "SPOLECZNE-MARK", label: "Społeczne" },
 };
 
 function iconTag(name, alt) {
@@ -56,6 +62,12 @@ function iconTag(name, alt) {
 
 function indicatorIcon(key) {
   return iconTag(key, key);
+}
+
+function boardEffectBadge(key) {
+  const meta = boardEffectMeta[key];
+  if (!meta) return "";
+  return `<span class="pill strong">${iconTag(meta.icon, meta.label)}${meta.label}</span>`;
 }
 
 function statIcon(key, alt) {
@@ -659,6 +671,15 @@ function renderHand() {
       .filter((p) => p.id !== me.id)
       .reduce((sum, p) => sum + p.support, 0);
     if (playable) cardEl.classList.add("playable");
+    const effects = card.effects || {};
+    const effectBadges = [];
+    if (toNumber(effects.buildings) === 1) effectBadges.push(boardEffectBadge("buildings"));
+    if (toNumber(effects.investment) === 1) effectBadges.push(boardEffectBadge("investment"));
+    if (toNumber(effects.social) === 1) effectBadges.push(boardEffectBadge("social"));
+    const indicatorKey = Array.isArray(effects.incr) ? effects.incr[0] : effects.incr;
+    if (indicatorKey) {
+      effectBadges.push(`<span class="pill strong">${indicatorIcon(indicatorKey)}Wskaźnik ${indicatorKey} +1</span>`);
+    }
     cardEl.innerHTML = `
       <div>
         <div class="meta">${card.typename || "Karta"} • Era ${card.level}</div>
@@ -677,10 +698,7 @@ function renderHand() {
         <span class="pill">${statIcon("_3","_3")}${toNumber(card.requirements?._3)}</span>
       </div>
       <div class="effects">
-        ${toNumber(card.effects?.buildings) === 1 ? `<span class="pill strong">🏗 Budowa</span>` : ""}
-        ${toNumber(card.effects?.investment) === 1 ? `<span class="pill strong">💹 Inwestycja</span>` : ""}
-        ${toNumber(card.effects?.social) === 1 ? `<span class="pill strong">🤝 Społeczne</span>` : ""}
-        ${card.effects?.incr ? `<span class="pill strong">⬆️ ${card.effects.incr}</span>` : ""}
+        ${effectBadges.join("")}
       </div>
       <div class="play-buttons">
         <button ${!playable ? "disabled" : ""} data-card="${idx}" data-mode="normal">Zagraj</button>
