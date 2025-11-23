@@ -62,6 +62,28 @@ function statIcon(key, alt) {
   return iconTag(iconMap[key] || key, alt || key);
 }
 
+const PLAYER_COLORS = ["#f6ad3c", "#4ade80", "#60a5fa", "#c084fc", "#f87171"];
+
+function playerColor(playerId) {
+  if (!state.game) return PLAYER_COLORS[0];
+  const idx = state.game.players.findIndex((p) => p.id === playerId);
+  return PLAYER_COLORS[idx >= 0 ? idx % PLAYER_COLORS.length : 0];
+}
+
+function shortPlayerLabel(id) {
+  if (!id) return "?";
+  const match = id.match(/(\d+)/);
+  if (match) return `G${match[1]}`;
+  return id.slice(0, 3).toUpperCase();
+}
+
+function displayLevel(level, steps = []) {
+  if (!level) return "–";
+  if (steps.includes(level)) return level;
+  if (level === 4 && steps.includes(5)) return 5;
+  return level;
+}
+
 // --- Dane kart ---
 class CardLoader {
   constructor(url = CARD_SOURCE) {
@@ -83,8 +105,9 @@ class CardLoader {
 
 // --- Plansza ---
 class Board {
-  constructor(buildings = 16, investment = 16, social = 16, maxLevel = 4) {
-    this.maxLevel = maxLevel;
+  constructor(buildings = 16, investment = 16, social = 16, levelSteps = [1, 2, 3, 5]) {
+    this.levelSteps = levelSteps;
+    this.maxLevel = Math.max(...levelSteps);
     this.fields = [];
     let idx = 0;
     for (let i = 0; i < buildings; i++) {
@@ -106,27 +129,35 @@ class Board {
     return this.fields.filter((f) => f.type === type && f.occupant === playerId);
   }
 
+  nextLevelValue(current) {
+    const idx = this.levelSteps.indexOf(current);
+    if (idx === -1) return this.levelSteps[0];
+    return this.levelSteps[idx + 1] || null;
+  }
+
+  canUpgradeField(field, playerId) {
+    if (!field || (playerId && field.occupant !== playerId)) return false;
+    const idx = this.levelSteps.indexOf(field.occupationLevel);
+    return idx >= 0 && idx < this.levelSteps.length - 1;
+  }
+
   occupyField(fieldId, playerId) {
     const f = this.fields.find((x) => x.id === fieldId);
     if (!f) return false;
     if (!f.occupant) {
       f.occupant = playerId;
-      f.occupationLevel = 1;
+      f.occupationLevel = this.levelSteps[0];
       return true;
     }
-    if (f.occupant !== playerId) return false;
-    if (f.occupationLevel < this.maxLevel) {
-      f.occupationLevel += 1;
-      return true;
-    }
-    return false;
+    return this.upgradeField(fieldId, playerId);
   }
 
   upgradeField(fieldId, playerId) {
     const f = this.fields.find((x) => x.id === fieldId);
     if (!f || f.occupant !== playerId) return false;
-    if (f.occupationLevel >= this.maxLevel) return false;
-    f.occupationLevel += 1;
+    const next = this.nextLevelValue(f.occupationLevel);
+    if (!next) return false;
+    f.occupationLevel = next;
     return true;
   }
 
@@ -136,22 +167,22 @@ class Board {
     }
     const playerFields = this.findPlayerFields(playerId, effectType);
     if (preferUpgrade && playerFields.length) {
-      const target = playerFields.find((f) => f.occupationLevel < this.maxLevel);
+      const target = playerFields.find((f) => this.canUpgradeField(f, playerId));
       if (target) {
         this.upgradeField(target.id, playerId);
-        return { success: true, message: `Ulepszono pole ${target.id}` };
+        return { success: true, message: `Ulepszono pole ${target.id} do poziomu ${target.occupationLevel}` };
       }
     }
     const empty = this.findEmptyField(effectType);
-    if (empty && !preferUpgrade) {
+    if (empty && (!preferUpgrade || playerFields.length === 0)) {
       this.occupyField(empty.id, playerId);
-      return { success: true, message: `Zajęto pole ${empty.id}` };
+      return { success: true, message: `Zajęto pole ${empty.id} (poziom ${empty.occupationLevel})` };
     }
-    if (!preferUpgrade && playerFields.length) {
-      const target = playerFields.find((f) => f.occupationLevel < this.maxLevel);
+    if (playerFields.length) {
+      const target = playerFields.find((f) => this.canUpgradeField(f, playerId));
       if (target) {
         this.upgradeField(target.id, playerId);
-        return { success: true, message: `Ulepszono pole ${target.id}` };
+        return { success: true, message: `Ulepszono pole ${target.id} do poziomu ${target.occupationLevel}` };
       }
     }
     return { success: false, message: "Brak dostępnych pól" };
@@ -384,10 +415,12 @@ class GameEngine {
     if (card.type === 3) player._3 += 1;
 
     const effects = card.effects || {};
+    const boardMessages = [];
     ["buildings", "investment", "social"].forEach((typ) => {
       const val = effects[typ];
       if (val === 1 || val === "1") {
-        this.board.placeWithEffect(typ, player.id);
+        const action = this.board.placeWithEffect(typ, player.id);
+        if (action.success && action.message) boardMessages.push(action.message);
       }
     });
 
@@ -413,8 +446,9 @@ class GameEngine {
     let modeNote = "";
     if (borrowed > 0) modeNote = ` (pożyczono poparcie ${borrowed})`;
     if (undecidedGain > 0) modeNote = ` (+${undecidedGain} niezdecydowanych)`;
+    const boardNote = boardMessages.length ? ` — plansza: ${boardMessages.join("; ")}` : "";
 
-    return { success: true, message: `${player.id} zagrywa ${card.title || card.id}${modeNote}` };
+    return { success: true, message: `${player.id} zagrywa ${card.title || card.id}${modeNote}${boardNote}`, boardMessages };
   }
 
   exchangeHand(player) {
@@ -476,8 +510,12 @@ class GameEngine {
     const pick = this.pickCardForAI(player);
     if (pick) {
       const res = this.playCard(player, pick.card, pick.mode);
-      if (res.success) this.emit(`${player.id} zagrywa kartę ${pick.card.title || pick.card.id} [${pick.mode}].`);
-      else this.emit(res.message);
+      if (res.success) {
+        const boardNote = res.boardMessages?.length ? ` — plansza: ${res.boardMessages.join("; ")}` : "";
+        this.emit(`${player.id} zagrywa kartę ${pick.card.title || pick.card.id} [${pick.mode}]${boardNote}.`);
+      } else {
+        this.emit(res.message);
+      }
     } else {
       const swap = this.exchangeHand(player);
       if (swap.success) {
@@ -550,6 +588,8 @@ const dom = {
   indicatorList: document.getElementById("indicatorList"),
   boardSummary: document.getElementById("boardSummary"),
   scoreSummary: document.getElementById("scoreSummary"),
+  boardGrid: document.getElementById("boardGrid"),
+  boardLegend: document.getElementById("boardLegend"),
   roundInfo: document.getElementById("roundInfo"),
   deckInfo: document.getElementById("deckInfo"),
   indicatorInfo: document.getElementById("indicatorInfo"),
@@ -571,6 +611,7 @@ function render() {
   renderHand();
   renderPlayers();
   renderIndicators();
+  renderBoard();
   renderBoardSummary();
   renderScoreSummary();
   renderStickySummary();
@@ -710,6 +751,68 @@ function renderIndicators() {
       <div class="bar"><span style="width:${pct}%"></span></div>
     `;
     dom.indicatorList.appendChild(wrap);
+  });
+}
+
+function renderBoard() {
+  const g = state.game;
+  if (dom.boardLegend) {
+    dom.boardLegend.textContent = g ? `Poziomy pól: ${(g.board.levelSteps || []).join(" → ")}` : "";
+  }
+  if (!dom.boardGrid) return;
+  dom.boardGrid.innerHTML = "";
+  if (!g) return;
+  const levelSteps = g.board.levelSteps || [1, 2, 3, 5];
+  const types = [
+    { key: "buildings", label: "Infrastruktura", icon: "INFRASTRUKTURA" },
+    { key: "investment", label: "Inwestycje", icon: "INWESTYCJE" },
+    { key: "social", label: "Społeczne", icon: "SPOLECZNE" },
+  ];
+  types.forEach((meta) => {
+    const section = document.createElement("div");
+    section.className = "board-section";
+    section.dataset.type = meta.key;
+    const fields = g.board.fields
+      .filter((f) => f.type === meta.key)
+      .sort((a, b) => a.id - b.id);
+    const occupied = fields.filter((f) => f.occupant).length;
+    section.innerHTML = `
+      <div class="board-section-header">
+        <div class="board-section-title">${iconTag(meta.icon, meta.label)}${meta.label}</div>
+        <div class="pill">${occupied}/${fields.length}</div>
+      </div>
+    `;
+    const grid = document.createElement("div");
+    grid.className = "board-cells";
+    fields.forEach((f) => {
+      const cell = document.createElement("div");
+      cell.className = "board-cell";
+      cell.dataset.type = meta.key;
+      if (f.occupant) {
+        cell.classList.add("occupied");
+        const color = playerColor(f.occupant);
+        const owner = g.players.find((p) => p.id === f.occupant);
+        cell.style.setProperty("--owner-color", color);
+        cell.innerHTML = `
+          <div class="cell-top">
+            <span class="owner">${shortPlayerLabel(owner?.id || f.occupant)}</span>
+            <span class="level-badge">lvl ${displayLevel(f.occupationLevel, levelSteps)}</span>
+          </div>
+          <div class="cell-id">#${f.id}</div>
+        `;
+      } else {
+        cell.classList.add("empty");
+        cell.innerHTML = `
+          <div class="cell-top">
+            <span class="owner">wolne</span>
+          </div>
+          <div class="cell-id">#${f.id}</div>
+        `;
+      }
+      grid.appendChild(cell);
+    });
+    section.appendChild(grid);
+    dom.boardGrid.appendChild(section);
   });
 }
 

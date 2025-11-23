@@ -302,6 +302,122 @@ button:disabled {
   transition: width 0.2s ease;
 }
 
+.board-panel .panel-header {
+  align-items: center;
+}
+
+.board-legend {
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.board-section {
+  background: var(--panel-strong);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+}
+
+.board-section[data-type="buildings"] {
+  border-top: 3px solid #7dd3fc;
+}
+
+.board-section[data-type="investment"] {
+  border-top: 3px solid #a3e635;
+}
+
+.board-section[data-type="social"] {
+  border-top: 3px solid #fb923c;
+}
+
+.board-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.board-section-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.board-cells {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(54px, 1fr));
+  gap: 8px;
+}
+
+.board-cell {
+  position: relative;
+  aspect-ratio: 1;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.board-cell .cell-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.board-cell .cell-id {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.board-cell .owner {
+  font-weight: 700;
+}
+
+.board-cell.empty .owner {
+  color: var(--muted);
+}
+
+.board-cell.occupied {
+  border-style: solid;
+  background: linear-gradient(135deg, var(--owner-color, var(--accent)) 0%, rgba(255, 255, 255, 0.12) 75%);
+  color: #0b0b10;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.28);
+}
+
+.board-cell .level-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(0, 0, 0, 0.35);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  border: 1px solid var(--border);
+}
+
+.board-cell.occupied .level-badge {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .players {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
