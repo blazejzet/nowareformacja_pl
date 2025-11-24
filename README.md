@@ -13,3 +13,7 @@ Wyjątek stanowi użytek na cele prywatne (przygotowanie pojedynczego egzemplarz
 ## Wykorzystanie komercyjne.
 
 W przypadku chęci wykorzystania komercyjnego proszę o kontakt. 
+
+## Symulacja
+
+Przygotowana przez AI (Codex 5.1) symulacja dostępna jest tu: [gamesim-nowareformacja.vercel.app](https://gamesim-nowareformacja.vercel.app)
